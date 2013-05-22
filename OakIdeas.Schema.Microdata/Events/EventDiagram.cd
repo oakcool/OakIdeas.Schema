@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OakIdeas.Schema.Microdata.Events.UserInteractions.UserComment">
+    <Position X="0.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQBAAAAAAAAAAAAAgAAAAAAAAAEAAAAQAAAAA=</HashCode>
+      <FileName>Events\UserInteractions\UserComment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.Events.UserInteractions.UserInteraction">
+    <Position X="9.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\UserInteractions\UserInteraction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.Events.Event">
+    <Position X="25.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIQAAASAIAAAAIABAAgAQAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Events\Event.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.Events.BusinessEvent">
+    <Position X="23.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\BusinessEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.Events.ChildrensEvent">
+    <Position X="25.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\ChildrensEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.Events.ComedyEvent">
+    <Position X="27.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\ComedyEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.Events.DanceEvent">
+    <Position X="30" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\DanceEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.Events.EducationEvent">
+    <Position X="32.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\EducationEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.Events.Festival">
+    <Position X="34.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\Festival.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.Events.FoodEvent">
+    <Position X="36.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\FoodEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.Events.LiteraryEvent">
+    <Position X="39" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\LiteraryEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.Events.MusicEvent">
+    <Position X="41.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\MusicEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.Events.SaleEvent">
+    <Position X="43.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\SaleEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.Events.SocialEvent">
+    <Position X="45.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\SocialEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.Events.SportsEvent">
+    <Position X="48" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\SportsEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.Events.TheaterEvent">
+    <Position X="50.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\TheaterEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.Events.UserInteractions.UserBlocks">
+    <Position X="3" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\UserInteractions\UserBlocks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.Events.UserInteractions.UserCheckins">
+    <Position X="5.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\UserInteractions\UserCheckins.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.Events.UserInteractions.UserDownloads">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\UserInteractions\UserDownloads.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.Events.UserInteractions.UserLikes">
+    <Position X="9.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\UserInteractions\UserLikes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.Events.UserInteractions.UserPageVisits">
+    <Position X="12" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\UserInteractions\UserPageVisits.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.Events.UserInteractions.UserPlays">
+    <Position X="14.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\UserInteractions\UserPlays.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.Events.UserInteractions.UserPlusOnes">
+    <Position X="16.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\UserInteractions\UserPlusOnes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.Events.UserInteractions.UserTweets">
+    <Position X="18.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\UserInteractions\UserTweets.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.Events.VisualArtsEvent" Collapsed="true">
+    <Position X="21" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\VisualArtsEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

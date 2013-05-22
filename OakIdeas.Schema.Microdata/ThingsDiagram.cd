@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OakIdeas.Schema.Microdata.Class" Collapsed="true">
+    <Position X="10.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.Person">
+    <Position X="22" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABAESIQCiAABBCQQIAEUAQAAAAQaCAGAbgAEAAJDKk=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.Property">
+    <Position X="24.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Property.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.Thing">
+    <Position X="18.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAABAAQAAAAAABAACAAAAAAAAAA=</HashCode>
+      <FileName>Thing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.CreativeWorks.CreativeWork">
+    <Position X="13" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAQQBECUASA1IAUgyAMAAAYAkAQQAEAgEACUCAAQIAg=</HashCode>
+      <FileName>CreativeWorks\CreativeWork.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.Events.Event">
+    <Position X="19.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIQAAASAIAAAAIABAAgAQAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Events\Event.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.Intangibles.Intangible" Collapsed="true">
+    <Position X="15.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Intangible.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.Organizations.Organization">
+    <Position X="8.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEWAgCCAAAAQAQAIAUAAADwAIIAAGAJCEAAABAAE=</HashCode>
+      <FileName>Organizations\Organization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.Places.Place">
+    <Position X="27" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEUAAAFAAACBAQAAAQAAAAgAAICACAICAAACAAAA=</HashCode>
+      <FileName>Places\Place.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.MedicalEntities.MedicalEntity">
+    <Position X="17.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAgAABAAAAAAgBAAAAAAAAAAAABBAAAAAAAA=</HashCode>
+      <FileName>MedicalEntities\MedicalEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Microdata.Products.Product">
+    <Position X="29.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>UAgAAUAABCIcAAAAAAAAAEAAACIAAAEgEAiAgQABEgA=</HashCode>
+      <FileName>Products\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

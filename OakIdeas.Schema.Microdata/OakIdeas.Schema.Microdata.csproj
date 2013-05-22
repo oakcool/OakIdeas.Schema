@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{023B313E-0C2D-415D-91C9-81EC11A7E6B8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OakIdeas.Schema.Microdata</RootNamespace>
+    <AssemblyName>OakIdeas.Schema.Microdata</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Profile2</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .NET Framework is automatically included -->
+    <None Include="CreativeWorks\CreativeWorksDiagram.cd" />
+    <None Include="Events\EventDiagram.cd" />
+    <None Include="Intangibles\IntangiblesDiagram.cd" />
+    <None Include="ThingsDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class.cs" />
+    <Compile Include="CreativeWorks\Articles\APIReference.cs" />
+    <Compile Include="CreativeWorks\Articles\Article.cs" />
+    <Compile Include="CreativeWorks\Articles\MedicalScholarlyArticle.cs" />
+    <Compile Include="CreativeWorks\Articles\NewsArticle.cs" />
+    <Compile Include="CreativeWorks\Articles\ScholarlyArticle.cs" />
+    <Compile Include="CreativeWorks\Articles\TechArticle.cs" />
+    <Compile Include="CreativeWorks\Blogs\Blog.cs" />
+    <Compile Include="CreativeWorks\Blogs\BlogPosting.cs" />
+    <Compile Include="CreativeWorks\Books\Book.cs" />
+    <Compile Include="CreativeWorks\Books\BookFormatType.cs" />
+    <Compile Include="CreativeWorks\Code.cs" />
+    <Compile Include="CreativeWorks\Comment.cs" />
+    <Compile Include="CreativeWorks\CreativeWork.cs" />
+    <Compile Include="CreativeWorks\Data\DataCatalog.cs" />
+    <Compile Include="CreativeWorks\Data\Dataset.cs" />
+    <Compile Include="CreativeWorks\ItemList.cs" />
+    <Compile Include="CreativeWorks\ItemListElement.cs" />
+    <Compile Include="CreativeWorks\Map.cs" />
+    <Compile Include="CreativeWorks\MediaObjects\AudioObject.cs" />
+    <Compile Include="CreativeWorks\MediaObjects\DataDownload.cs" />
+    <Compile Include="CreativeWorks\MediaObjects\ImageObject.cs" />
+    <Compile Include="CreativeWorks\MediaObjects\MediaObject.cs" />
+    <Compile Include="CreativeWorks\MediaObjects\MusicVideoObject.cs" />
+    <Compile Include="CreativeWorks\MediaObjects\VideoObject.cs" />
+    <Compile Include="CreativeWorks\Medical\Diet.cs" />
+    <Compile Include="CreativeWorks\Medical\ExercisePlan.cs" />
+    <Compile Include="CreativeWorks\Medical\MedicalTherapy.cs" />
+    <Compile Include="CreativeWorks\Movie.cs" />
+    <Compile Include="CreativeWorks\Music\IMusicWriter.cs" />
+    <Compile Include="CreativeWorks\Music\MusicAlbum.cs" />
+    <Compile Include="CreativeWorks\Music\MusicPlaylist.cs" />
+    <Compile Include="CreativeWorks\Music\MusicRecording.cs" />
+    <Compile Include="CreativeWorks\Painting.cs" />
+    <Compile Include="CreativeWorks\Photograph.cs" />
+    <Compile Include="CreativeWorks\PhysicalActivity.cs" />
+    <Compile Include="CreativeWorks\Recipe.cs" />
+    <Compile Include="CreativeWorks\Review.cs" />
+    <Compile Include="CreativeWorks\Sculpture.cs" />
+    <Compile Include="CreativeWorks\Software\MobileApplication.cs" />
+    <Compile Include="CreativeWorks\Software\SoftwareApplication.cs" />
+    <Compile Include="CreativeWorks\Software\WebApplication.cs" />
+    <Compile Include="CreativeWorks\TV\TVEpisode.cs" />
+    <Compile Include="CreativeWorks\TV\TVSeason.cs" />
+    <Compile Include="CreativeWorks\TV\TVSeries.cs" />
+    <Compile Include="CreativeWorks\WebPages\AboutPage.cs" />
+    <Compile Include="CreativeWorks\WebPages\CheckoutPage.cs" />
+    <Compile Include="CreativeWorks\WebPages\CollectionPage.cs" />
+    <Compile Include="CreativeWorks\WebPages\ContactPage.cs" />
+    <Compile Include="CreativeWorks\WebPages\Elements\SiteNavigationElement.cs" />
+    <Compile Include="CreativeWorks\WebPages\Elements\Table.cs" />
+    <Compile Include="CreativeWorks\WebPages\Elements\WebPageElement.cs" />
+    <Compile Include="CreativeWorks\WebPages\Elements\WPAdBlock.cs" />
+    <Compile Include="CreativeWorks\WebPages\Elements\WPFooter.cs" />
+    <Compile Include="CreativeWorks\WebPages\Elements\WPHeader.cs" />
+    <Compile Include="CreativeWorks\WebPages\Elements\WPSideBar.cs" />
+    <Compile Include="CreativeWorks\WebPages\ItemPage.cs" />
+    <Compile Include="CreativeWorks\WebPages\MedicalWebPage.cs" />
+    <Compile Include="CreativeWorks\WebPages\ProfilePage.cs" />
+    <Compile Include="CreativeWorks\WebPages\SearchResultsPage.cs" />
+    <Compile Include="CreativeWorks\WebPages\WebPage.cs" />
+    <Compile Include="EducationalOrganization.cs" />
+    <Compile Include="Events\BusinessEvent.cs" />
+    <Compile Include="Events\ChildrensEvent.cs" />
+    <Compile Include="Events\ComedyEvent.cs" />
+    <Compile Include="Events\DanceEvent.cs" />
+    <Compile Include="Events\EducationEvent.cs" />
+    <Compile Include="Events\Event.cs" />
+    <Compile Include="Events\Festival.cs" />
+    <Compile Include="Events\FoodEvent.cs" />
+    <Compile Include="Events\LiteraryEvent.cs" />
+    <Compile Include="Events\MusicEvent.cs" />
+    <Compile Include="Events\SaleEvent.cs" />
+    <Compile Include="Events\SocialEvent.cs" />
+    <Compile Include="Events\SportsEvent.cs" />
+    <Compile Include="Events\TheaterEvent.cs" />
+    <Compile Include="Events\UserInteractions\UserBlocks.cs" />
+    <Compile Include="Events\UserInteractions\UserCheckins.cs" />
+    <Compile Include="Events\UserInteractions\UserComment.cs" />
+    <Compile Include="Events\UserInteractions\UserDownloads.cs" />
+    <Compile Include="Events\UserInteractions\UserInteraction.cs" />
+    <Compile Include="Events\UserInteractions\UserLikes.cs" />
+    <Compile Include="Events\UserInteractions\UserPageVisits.cs" />
+    <Compile Include="Events\UserInteractions\UserPlays.cs" />
+    <Compile Include="Events\UserInteractions\UserPlusOnes.cs" />
+    <Compile Include="Events\UserInteractions\UserTweets.cs" />
+    <Compile Include="Events\VisualArtsEvent.cs" />
+    <Compile Include="IBrand.cs" />
+    <Compile Include="IEntity.cs" />
+    <Compile Include="IGeoInfo.cs" />
+    <Compile Include="ILocation.cs" />
+    <Compile Include="Intangibles\AggregateRating.cs" />
+    <Compile Include="Intangibles\AlignmentObject.cs" />
+    <Compile Include="Intangibles\Audiences\Audience.cs" />
+    <Compile Include="Intangibles\Audiences\EducationalAudience.cs" />
+    <Compile Include="Intangibles\Audiences\MedicalAudience.cs" />
+    <Compile Include="Intangibles\Audiences\ParentAudience.cs" />
+    <Compile Include="Intangibles\Audiences\PeopleAudience.cs" />
+    <Compile Include="Intangibles\Brand.cs" />
+    <Compile Include="Intangibles\Demand.cs" />
+    <Compile Include="Intangibles\Duration.cs" />
+    <Compile Include="Intangibles\Energy.cs" />
+    <Compile Include="Intangibles\Enumerations\BusinessEntityType.cs" />
+    <Compile Include="Intangibles\Enumerations\BusinessFunction.cs" />
+    <Compile Include="Intangibles\Enumerations\DeliveryMethods\DeliveryMethod.cs" />
+    <Compile Include="Intangibles\Enumerations\DeliveryMethods\ParcelService.cs" />
+    <Compile Include="Intangibles\Enumerations\ItemAvailabilities\ItemAvailability.cs" />
+    <Compile Include="Intangibles\Enumerations\PaymentMethods\CreditCard.cs" />
+    <Compile Include="Intangibles\Enumerations\PaymentMethods\PaymentMethod.cs" />
+    <Compile Include="Intangibles\Enumerations\WarrantyScope.cs" />
+    <Compile Include="Intangibles\Intangible.cs" />
+    <Compile Include="Intangibles\JobPosting.cs" />
+    <Compile Include="Intangibles\Language.cs" />
+    <Compile Include="Intangibles\Quantities\Mass.cs" />
+    <Compile Include="Intangibles\NutrionInformation.cs" />
+    <Compile Include="Intangibles\Offer.cs" />
+    <Compile Include="Intangibles\Quantities\Quantity.cs" />
+    <Compile Include="Intangibles\Rating.cs" />
+    <Compile Include="Intangibles\StructuredValues\ContactPoint.cs" />
+    <Compile Include="Intangibles\StructuredValues\IValueReference.cs" />
+    <Compile Include="Intangibles\StructuredValues\OppeningHoursSpecification.cs" />
+    <Compile Include="Intangibles\StructuredValues\PriceSpecifications\DeliveryChargeSpecification.cs" />
+    <Compile Include="Intangibles\StructuredValues\PriceSpecifications\PaymentChargeSpecification.cs" />
+    <Compile Include="Intangibles\StructuredValues\PriceSpecifications\PriceSpecification.cs" />
+    <Compile Include="Intangibles\StructuredValues\PriceSpecifications\UnitPriceSpecification.cs" />
+    <Compile Include="Intangibles\StructuredValues\QuantitativeValue.cs" />
+    <Compile Include="Intangibles\StructuredValues\StructuredValue.cs" />
+    <Compile Include="Intangibles\StructuredValues\TypeAndQuantityNode.cs" />
+    <Compile Include="Intangibles\StructuredValues\WarrantyPromise.cs" />
+    <Compile Include="InterationCount.cs" />
+    <Compile Include="IOwn.cs" />
+    <Compile Include="IPhoto.cs" />
+    <Compile Include="IQuantitativeValue.cs" />
+    <Compile Include="MedicalEntities\MedicalCode.cs" />
+    <Compile Include="MedicalEntities\MedicalCondition.cs" />
+    <Compile Include="MedicalEntities\MedicalEntity.cs" />
+    <Compile Include="MedicalEntities\MedicalGuideLine.cs" />
+    <Compile Include="MedicalEntities\MedicalSpecialty.cs" />
+    <Compile Include="MedicalEntities\MedicalStudy.cs" />
+    <Compile Include="MedicalEntities\MedicineSystem.cs" />
+    <Compile Include="OfferItemCondition.cs" />
+    <Compile Include="Organizations\LocalBusinesses\AnimalShelter.cs" />
+    <Compile Include="Organizations\LocalBusinesses\AutomotiveBusiness.cs" />
+    <Compile Include="Organizations\LocalBusinesses\ChildCare.cs" />
+    <Compile Include="Organizations\LocalBusinesses\DryCleaningOrLaundry.cs" />
+    <Compile Include="Organizations\LocalBusinesses\EmergencyService.cs" />
+    <Compile Include="Organizations\LocalBusinesses\EmploymentAgency.cs" />
+    <Compile Include="Organizations\LocalBusinesses\EntertainmentBusinesses\AdultEntertainment.cs" />
+    <Compile Include="Organizations\LocalBusinesses\EntertainmentBusinesses\AmusementPark.cs" />
+    <Compile Include="Organizations\LocalBusinesses\EntertainmentBusinesses\ArtGallery.cs" />
+    <Compile Include="Organizations\LocalBusinesses\EntertainmentBusinesses\Casino.cs" />
+    <Compile Include="Organizations\LocalBusinesses\EntertainmentBusinesses\ComedyClub.cs" />
+    <Compile Include="Organizations\LocalBusinesses\EntertainmentBusinesses\EntertainmentBusiness.cs" />
+    <Compile Include="Organizations\LocalBusinesses\EntertainmentBusinesses\MovieTheater.cs" />
+    <Compile Include="Organizations\LocalBusinesses\EntertainmentBusinesses\NightClub.cs" />
+    <Compile Include="Organizations\LocalBusinesses\FinancialServices\AccountingService.cs" />
+    <Compile Include="Organizations\LocalBusinesses\FinancialServices\AutomatedTeller.cs" />
+    <Compile Include="Organizations\LocalBusinesses\FinancialServices\BankOrCreditUnion.cs" />
+    <Compile Include="Organizations\LocalBusinesses\FinancialServices\FinancialService.cs" />
+    <Compile Include="Organizations\LocalBusinesses\FinancialServices\InsuranceAgency.cs" />
+    <Compile Include="Organizations\LocalBusinesses\FoodEstablishments\Bakery.cs" />
+    <Compile Include="Organizations\LocalBusinesses\FoodEstablishments\BarOrPub.cs" />
+    <Compile Include="Organizations\LocalBusinesses\FoodEstablishments\Brewery.cs" />
+    <Compile Include="Organizations\LocalBusinesses\FoodEstablishments\CafeOrCoffeeShop.cs" />
+    <Compile Include="Organizations\LocalBusinesses\FoodEstablishments\FastFoodRestaurant.cs" />
+    <Compile Include="Organizations\LocalBusinesses\FoodEstablishments\FoodEstablishment.cs" />
+    <Compile Include="Organizations\LocalBusinesses\FoodEstablishments\IceCreamShop.cs" />
+    <Compile Include="Organizations\LocalBusinesses\FoodEstablishments\Restaurant.cs" />
+    <Compile Include="Organizations\LocalBusinesses\FoodEstablishments\Winery.cs" />
+    <Compile Include="Organizations\LocalBusinesses\GovernmentOffices\GovernmentOffice.cs" />
+    <Compile Include="Organizations\LocalBusinesses\GovernmentOffices\PostOffice.cs" />
+    <Compile Include="Organizations\LocalBusinesses\HealthAndBeautyBusinesses\BeautySalon.cs" />
+    <Compile Include="Organizations\LocalBusinesses\HealthAndBeautyBusinesses\DaySpa.cs" />
+    <Compile Include="Organizations\LocalBusinesses\HealthAndBeautyBusinesses\HairSalon.cs" />
+    <Compile Include="Organizations\LocalBusinesses\HealthAndBeautyBusinesses\HealthAndBeautyBusiness.cs" />
+    <Compile Include="Organizations\LocalBusinesses\HealthAndBeautyBusinesses\HealthClub.cs" />
+    <Compile Include="Organizations\LocalBusinesses\HealthAndBeautyBusinesses\NailSalon.cs" />
+    <Compile Include="Organizations\LocalBusinesses\HealthAndBeautyBusinesses\TattooParlor.cs" />
+    <Compile Include="Organizations\LocalBusinesses\HomeAndConstructionBusinesses\HomeAndConstructionBusiness.cs" />
+    <Compile Include="Organizations\LocalBusinesses\LocalBusiness.cs" />
+    <Compile Include="Organizations\NGO.cs" />
+    <Compile Include="Organizations\Organization.cs" />
+    <Compile Include="Organizations\PerformingGroups\DanceGroup.cs" />
+    <Compile Include="Organizations\PerformingGroups\MusicGroup.cs" />
+    <Compile Include="Organizations\PerformingGroups\PerformingGroup.cs" />
+    <Compile Include="Organizations\PerformingGroups\TheaterGroup.cs" />
+    <Compile Include="Organizations\SportsTeam.cs" />
+    <Compile Include="Person.cs" />
+    <Compile Include="Places\Place.cs" />
+    <Compile Include="PostalAddress.cs" />
+    <Compile Include="Products\Product.cs" />
+    <Compile Include="Products\ProductModel.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Property.cs" />
+    <Compile Include="Thing.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
