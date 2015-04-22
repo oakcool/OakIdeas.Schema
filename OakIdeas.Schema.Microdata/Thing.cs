@@ -12,9 +12,13 @@ namespace OakIdeas.Schema.Microdata
         }
 
         public string AdditionalType { get; set; }
+        public string AlternateName { get; set; }
         public string Description { get; set; }
         public string Image { get; set; }
         public string Name { get; set; }
+        public Action potentialAction { get; set; }
+        public string SameAs { get; set; }
         public string Url { get; set; }
+
     }
 }

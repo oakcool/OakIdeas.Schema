@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OakIdeas.Schema.Microdata", "OakIdeas.Schema.Microdata\OakIdeas.Schema.Microdata.csproj", "{023B313E-0C2D-415D-91C9-81EC11A7E6B8}"
 EndProject
 Global

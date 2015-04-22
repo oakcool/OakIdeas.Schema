@@ -1,9 +1,10 @@
-﻿using System;
+﻿using OakIdeas.Schema.Microdata.Intangibles;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace OakIdeas.Schema.Microdata
+namespace OakIdeas.Schema.Microdata.Intangibles
 {
     /// <summary>
     /// A property, used to indicate attributes and relationships of some Thing; equivalent to rdf:Property.

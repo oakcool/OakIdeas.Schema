@@ -11,9 +11,29 @@
     <RootNamespace>OakIdeas.Schema.Microdata</RootNamespace>
     <AssemblyName>OakIdeas.Schema.Microdata</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Profile2</TargetFrameworkProfile>
+    <TargetFrameworkProfile>Profile36</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -40,7 +60,7 @@
     <None Include="ThingsDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class.cs" />
+    <Compile Include="Action.cs" />
     <Compile Include="CreativeWorks\Articles\APIReference.cs" />
     <Compile Include="CreativeWorks\Articles\Article.cs" />
     <Compile Include="CreativeWorks\Articles\MedicalScholarlyArticle.cs" />
@@ -79,8 +99,8 @@
     <Compile Include="CreativeWorks\Recipe.cs" />
     <Compile Include="CreativeWorks\Review.cs" />
     <Compile Include="CreativeWorks\Sculpture.cs" />
+    <Compile Include="CreativeWorks\SoftwareApplication.cs" />
     <Compile Include="CreativeWorks\Software\MobileApplication.cs" />
-    <Compile Include="CreativeWorks\Software\SoftwareApplication.cs" />
     <Compile Include="CreativeWorks\Software\WebApplication.cs" />
     <Compile Include="CreativeWorks\TV\TVEpisode.cs" />
     <Compile Include="CreativeWorks\TV\TVSeason.cs" />
@@ -139,9 +159,11 @@
     <Compile Include="Intangibles\Audiences\ParentAudience.cs" />
     <Compile Include="Intangibles\Audiences\PeopleAudience.cs" />
     <Compile Include="Intangibles\Brand.cs" />
+    <Compile Include="Intangibles\Class.cs" />
     <Compile Include="Intangibles\Demand.cs" />
     <Compile Include="Intangibles\Duration.cs" />
     <Compile Include="Intangibles\Energy.cs" />
+    <Compile Include="Intangibles\EntryPoint.cs" />
     <Compile Include="Intangibles\Enumerations\BusinessEntityType.cs" />
     <Compile Include="Intangibles\Enumerations\BusinessFunction.cs" />
     <Compile Include="Intangibles\Enumerations\DeliveryMethods\DeliveryMethod.cs" />
@@ -233,10 +255,25 @@
     <Compile Include="Products\Product.cs" />
     <Compile Include="Products\ProductModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Property.cs" />
+    <Compile Include="Intangibles\Property.cs" />
     <Compile Include="Thing.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Actions\AchieveActions\" />
+    <Folder Include="Intangibles\StructuredValues\ContactPoints\" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
