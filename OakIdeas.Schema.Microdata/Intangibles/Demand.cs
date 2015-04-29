@@ -6,7 +6,6 @@ using OakIdeas.Schema.Microdata.Intangibles.Enumerations.ItemAvailabilities;
 using OakIdeas.Schema.Microdata.Intangibles.Enumerations.PaymentMethods;
 using OakIdeas.Schema.Microdata.Intangibles.StructuredValues;
 using OakIdeas.Schema.Microdata.Intangibles.StructuredValues.PriceSpecifications;
-using OakIdeas.Schema.Microdata.Places;
 using OakIdeas.Schema.Microdata.Products;
 
 namespace OakIdeas.Schema.Microdata.Intangibles

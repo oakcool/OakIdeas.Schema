@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using OakIdeas.Schema.Microdata.CreativeWorks.Articles;
 using OakIdeas.Schema.Microdata.Intangibles;
-using OakIdeas.Schema.Microdata.Places;
 
 namespace OakIdeas.Schema.Microdata.CreativeWorks.MediaObjects
 {

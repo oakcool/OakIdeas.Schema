@@ -4,9 +4,9 @@ using OakIdeas.Schema.Microdata.CreativeWorks;
 using OakIdeas.Schema.Microdata.CreativeWorks.MediaObjects;
 using OakIdeas.Schema.Microdata.Intangibles;
 using OakIdeas.Schema.Microdata.Intangibles.Audiences;
-using OakIdeas.Schema.Microdata.Organizations;
+using OakIdeas.Schema.Microdata.Products;
 
-namespace OakIdeas.Schema.Microdata.Products
+namespace OakIdeas.Schema.Microdata
 {
     /// <summary>
     /// A product is anything that is made available for sale—for example, a pair of shoes, a concert ticket, or a car. Commodity services, like haircuts, can also be represented using this type.

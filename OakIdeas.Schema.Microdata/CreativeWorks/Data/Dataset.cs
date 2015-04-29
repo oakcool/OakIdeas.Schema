@@ -1,6 +1,5 @@
 using System;
 using OakIdeas.Schema.Microdata.CreativeWorks.MediaObjects;
-using OakIdeas.Schema.Microdata.Places;
 
 namespace OakIdeas.Schema.Microdata.CreativeWorks.Data
 {

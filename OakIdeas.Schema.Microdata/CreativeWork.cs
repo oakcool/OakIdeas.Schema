@@ -1,15 +1,13 @@
 using System;
 using System.Collections.Generic;
+using OakIdeas.Schema.Microdata.CreativeWorks;
 using OakIdeas.Schema.Microdata.CreativeWorks.MediaObjects;
-using OakIdeas.Schema.Microdata.Events;
 using OakIdeas.Schema.Microdata.Events.UserInteractions;
 using OakIdeas.Schema.Microdata.Intangibles;
 using OakIdeas.Schema.Microdata.Intangibles.Audiences;
-using OakIdeas.Schema.Microdata.MedicalEntities;
 using OakIdeas.Schema.Microdata.Organizations;
-using OakIdeas.Schema.Microdata.Places;
 
-namespace OakIdeas.Schema.Microdata.CreativeWorks
+namespace OakIdeas.Schema.Microdata
 {
     /// <summary>
     /// The most generic kind of creative work, including books, movies, photographs, software programs, etc.

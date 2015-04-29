@@ -61,6 +61,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Action.cs" />
+    <Compile Include="Actions\AchieveActions\LoseAction.cs" />
+    <Compile Include="Actions\AchieveAction.cs" />
+    <Compile Include="Actions\AchieveActions\TieAction.cs" />
+    <Compile Include="Actions\AchieveActions\WinAction.cs" />
+    <Compile Include="CreativeWork.cs" />
     <Compile Include="CreativeWorks\Articles\APIReference.cs" />
     <Compile Include="CreativeWorks\Articles\Article.cs" />
     <Compile Include="CreativeWorks\Articles\MedicalScholarlyArticle.cs" />
@@ -73,7 +78,6 @@
     <Compile Include="CreativeWorks\Books\BookFormatType.cs" />
     <Compile Include="CreativeWorks\Code.cs" />
     <Compile Include="CreativeWorks\Comment.cs" />
-    <Compile Include="CreativeWorks\CreativeWork.cs" />
     <Compile Include="CreativeWorks\Data\DataCatalog.cs" />
     <Compile Include="CreativeWorks\Data\Dataset.cs" />
     <Compile Include="CreativeWorks\ItemList.cs" />
@@ -122,12 +126,12 @@
     <Compile Include="CreativeWorks\WebPages\SearchResultsPage.cs" />
     <Compile Include="CreativeWorks\WebPages\WebPage.cs" />
     <Compile Include="EducationalOrganization.cs" />
+    <Compile Include="Event.cs" />
     <Compile Include="Events\BusinessEvent.cs" />
     <Compile Include="Events\ChildrensEvent.cs" />
     <Compile Include="Events\ComedyEvent.cs" />
     <Compile Include="Events\DanceEvent.cs" />
     <Compile Include="Events\EducationEvent.cs" />
-    <Compile Include="Events\Event.cs" />
     <Compile Include="Events\Festival.cs" />
     <Compile Include="Events\FoodEvent.cs" />
     <Compile Include="Events\LiteraryEvent.cs" />
@@ -136,11 +140,11 @@
     <Compile Include="Events\SocialEvent.cs" />
     <Compile Include="Events\SportsEvent.cs" />
     <Compile Include="Events\TheaterEvent.cs" />
+    <Compile Include="Events\UserInteraction.cs" />
     <Compile Include="Events\UserInteractions\UserBlocks.cs" />
     <Compile Include="Events\UserInteractions\UserCheckins.cs" />
     <Compile Include="Events\UserInteractions\UserComment.cs" />
     <Compile Include="Events\UserInteractions\UserDownloads.cs" />
-    <Compile Include="Events\UserInteractions\UserInteraction.cs" />
     <Compile Include="Events\UserInteractions\UserLikes.cs" />
     <Compile Include="Events\UserInteractions\UserPageVisits.cs" />
     <Compile Include="Events\UserInteractions\UserPlays.cs" />
@@ -151,6 +155,7 @@
     <Compile Include="IEntity.cs" />
     <Compile Include="IGeoInfo.cs" />
     <Compile Include="ILocation.cs" />
+    <Compile Include="Intangible.cs" />
     <Compile Include="Intangibles\AggregateRating.cs" />
     <Compile Include="Intangibles\AlignmentObject.cs" />
     <Compile Include="Intangibles\Audiences\Audience.cs" />
@@ -172,7 +177,6 @@
     <Compile Include="Intangibles\Enumerations\PaymentMethods\CreditCard.cs" />
     <Compile Include="Intangibles\Enumerations\PaymentMethods\PaymentMethod.cs" />
     <Compile Include="Intangibles\Enumerations\WarrantyScope.cs" />
-    <Compile Include="Intangibles\Intangible.cs" />
     <Compile Include="Intangibles\JobPosting.cs" />
     <Compile Include="Intangibles\Language.cs" />
     <Compile Include="Intangibles\Quantities\Mass.cs" />
@@ -197,12 +201,13 @@
     <Compile Include="IQuantitativeValue.cs" />
     <Compile Include="MedicalEntities\MedicalCode.cs" />
     <Compile Include="MedicalEntities\MedicalCondition.cs" />
-    <Compile Include="MedicalEntities\MedicalEntity.cs" />
     <Compile Include="MedicalEntities\MedicalGuideLine.cs" />
     <Compile Include="MedicalEntities\MedicalSpecialty.cs" />
     <Compile Include="MedicalEntities\MedicalStudy.cs" />
     <Compile Include="MedicalEntities\MedicineSystem.cs" />
+    <Compile Include="MedicalEntity.cs" />
     <Compile Include="OfferItemCondition.cs" />
+    <Compile Include="Organization.cs" />
     <Compile Include="Organizations\LocalBusinesses\AnimalShelter.cs" />
     <Compile Include="Organizations\LocalBusinesses\AutomotiveBusiness.cs" />
     <Compile Include="Organizations\LocalBusinesses\ChildCare.cs" />
@@ -243,17 +248,21 @@
     <Compile Include="Organizations\LocalBusinesses\HomeAndConstructionBusinesses\HomeAndConstructionBusiness.cs" />
     <Compile Include="Organizations\LocalBusinesses\LocalBusiness.cs" />
     <Compile Include="Organizations\NGO.cs" />
-    <Compile Include="Organizations\Organization.cs" />
     <Compile Include="Organizations\PerformingGroups\DanceGroup.cs" />
     <Compile Include="Organizations\PerformingGroups\MusicGroup.cs" />
     <Compile Include="Organizations\PerformingGroups\PerformingGroup.cs" />
     <Compile Include="Organizations\PerformingGroups\TheaterGroup.cs" />
     <Compile Include="Organizations\SportsTeam.cs" />
     <Compile Include="Person.cs" />
-    <Compile Include="Places\Place.cs" />
+    <Compile Include="Place.cs" />
+    <Compile Include="Places\AdministrativeArea.cs" />
     <Compile Include="PostalAddress.cs" />
-    <Compile Include="Products\Product.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="Products\IndividualProduct.cs" />
     <Compile Include="Products\ProductModel.cs" />
+    <Compile Include="Products\SomeProducts.cs" />
+    <Compile Include="Products\Vehicle.cs" />
+    <Compile Include="Products\Vehicles\Car.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Intangibles\Property.cs" />
     <Compile Include="Thing.cs" />
@@ -271,7 +280,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Actions\AchieveActions\" />
     <Folder Include="Intangibles\StructuredValues\ContactPoints\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />

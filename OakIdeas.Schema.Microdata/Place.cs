@@ -4,7 +4,7 @@ using OakIdeas.Schema.Microdata.Events;
 using OakIdeas.Schema.Microdata.Intangibles;
 using OakIdeas.Schema.Microdata.Intangibles.StructuredValues;
 
-namespace OakIdeas.Schema.Microdata.Places
+namespace OakIdeas.Schema.Microdata
 {
     /// <summary>
     /// Entities that have a somewhat fixed, physical extension.

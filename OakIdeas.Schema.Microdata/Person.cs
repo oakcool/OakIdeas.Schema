@@ -6,7 +6,6 @@ using OakIdeas.Schema.Microdata.Events;
 using OakIdeas.Schema.Microdata.Intangibles;
 using OakIdeas.Schema.Microdata.Intangibles.StructuredValues;
 using OakIdeas.Schema.Microdata.Organizations;
-using OakIdeas.Schema.Microdata.Places;
 
 namespace OakIdeas.Schema.Microdata
 {

@@ -4,9 +4,8 @@ using OakIdeas.Schema.Microdata.CreativeWorks;
 using OakIdeas.Schema.Microdata.Events;
 using OakIdeas.Schema.Microdata.Intangibles;
 using OakIdeas.Schema.Microdata.Intangibles.StructuredValues;
-using OakIdeas.Schema.Microdata.Places;
 
-namespace OakIdeas.Schema.Microdata.Organizations
+namespace OakIdeas.Schema.Microdata
 {
     /// <summary>
     /// An organization such as a school, NGO, corporation, club, etc.

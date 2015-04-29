@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using OakIdeas.Schema.Microdata.Intangibles;
-using OakIdeas.Schema.Microdata.Places;
 
 namespace OakIdeas.Schema.Microdata.Organizations.LocalBusinesses
 {

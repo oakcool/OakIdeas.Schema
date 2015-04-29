@@ -1,4 +1,4 @@
-namespace OakIdeas.Schema.Microdata.Events.UserInteractions
+namespace OakIdeas.Schema.Microdata.Events
 {
     /// <summary>
     /// A user interacting with a page

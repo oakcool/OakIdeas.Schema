@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using OakIdeas.Schema.Microdata.Intangibles;
 
-namespace OakIdeas.Schema.Microdata.Events
+namespace OakIdeas.Schema.Microdata
 {
     /// <summary>
     /// An event happening at a certain time at a certain location.

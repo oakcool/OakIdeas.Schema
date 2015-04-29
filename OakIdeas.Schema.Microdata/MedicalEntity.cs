@@ -1,6 +1,6 @@
-using OakIdeas.Schema.Microdata.Organizations;
+using OakIdeas.Schema.Microdata.MedicalEntities;
 
-namespace OakIdeas.Schema.Microdata.MedicalEntities
+namespace OakIdeas.Schema.Microdata
 {
     /// <summary>
     /// The most generic type of entity related to health and the practice of medicine.
