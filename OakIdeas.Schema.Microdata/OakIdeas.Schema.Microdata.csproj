@@ -208,6 +208,13 @@
     <Compile Include="MedicalEntity.cs" />
     <Compile Include="OfferItemCondition.cs" />
     <Compile Include="Organization.cs" />
+    <Compile Include="Organizations\EducationalOrganization.cs" />
+    <Compile Include="Organizations\EducationalOrganizations\CollegeOrUniversity.cs" />
+    <Compile Include="Organizations\EducationalOrganizations\ElementarySchool.cs" />
+    <Compile Include="Organizations\EducationalOrganizations\HighSchool.cs" />
+    <Compile Include="Organizations\EducationalOrganizations\MiddleSchool.cs" />
+    <Compile Include="Organizations\EducationalOrganizations\Preschool.cs" />
+    <Compile Include="Organizations\EducationalOrganizations\School.cs" />
     <Compile Include="Organizations\LocalBusinesses\AnimalShelter.cs" />
     <Compile Include="Organizations\LocalBusinesses\AutomotiveBusiness.cs" />
     <Compile Include="Organizations\LocalBusinesses\ChildCare.cs" />
