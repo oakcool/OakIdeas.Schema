@@ -255,11 +255,12 @@
     <Compile Include="Organizations\LocalBusinesses\HomeAndConstructionBusinesses\HomeAndConstructionBusiness.cs" />
     <Compile Include="Organizations\LocalBusinesses\LocalBusiness.cs" />
     <Compile Include="Organizations\NGO.cs" />
+    <Compile Include="Organizations\PerformingGroup.cs" />
     <Compile Include="Organizations\PerformingGroups\DanceGroup.cs" />
     <Compile Include="Organizations\PerformingGroups\MusicGroup.cs" />
-    <Compile Include="Organizations\PerformingGroups\PerformingGroup.cs" />
     <Compile Include="Organizations\PerformingGroups\TheaterGroup.cs" />
-    <Compile Include="Organizations\SportsTeam.cs" />
+    <Compile Include="Organizations\SportsOrganization.cs" />
+    <Compile Include="Organizations\SportsOrganizations\SportsTeam.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Place.cs" />
     <Compile Include="Places\AdministrativeArea.cs" />

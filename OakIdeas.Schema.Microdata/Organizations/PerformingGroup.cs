@@ -1,4 +1,4 @@
-namespace OakIdeas.Schema.Microdata.Organizations.PerformingGroups
+namespace OakIdeas.Schema.Microdata.Organizations
 {
     /// <summary>
     /// A performance group, such as a band, an orchestra, or a circus.
