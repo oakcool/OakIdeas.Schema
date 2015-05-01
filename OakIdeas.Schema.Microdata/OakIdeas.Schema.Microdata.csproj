@@ -179,6 +179,7 @@
     <Compile Include="Intangibles\Enumerations\WarrantyScope.cs" />
     <Compile Include="Intangibles\JobPosting.cs" />
     <Compile Include="Intangibles\Language.cs" />
+    <Compile Include="Intangibles\Quantities\Duration.cs" />
     <Compile Include="Intangibles\Quantities\Mass.cs" />
     <Compile Include="Intangibles\NutrionInformation.cs" />
     <Compile Include="Intangibles\Offer.cs" />
@@ -208,6 +209,7 @@
     <Compile Include="MedicalEntity.cs" />
     <Compile Include="OfferItemCondition.cs" />
     <Compile Include="Organization.cs" />
+    <Compile Include="Organizations\Corporation.cs" />
     <Compile Include="Organizations\EducationalOrganization.cs" />
     <Compile Include="Organizations\EducationalOrganizations\CollegeOrUniversity.cs" />
     <Compile Include="Organizations\EducationalOrganizations\ElementarySchool.cs" />
@@ -215,6 +217,7 @@
     <Compile Include="Organizations\EducationalOrganizations\MiddleSchool.cs" />
     <Compile Include="Organizations\EducationalOrganizations\Preschool.cs" />
     <Compile Include="Organizations\EducationalOrganizations\School.cs" />
+    <Compile Include="Organizations\GovernmentOrganization.cs" />
     <Compile Include="Organizations\LocalBusinesses\AnimalShelter.cs" />
     <Compile Include="Organizations\LocalBusinesses\AutomotiveBusiness.cs" />
     <Compile Include="Organizations\LocalBusinesses\ChildCare.cs" />
@@ -264,6 +267,7 @@
     <Compile Include="Person.cs" />
     <Compile Include="Place.cs" />
     <Compile Include="Places\AdministrativeArea.cs" />
+    <Compile Include="Places\LocalBusiness.cs" />
     <Compile Include="PostalAddress.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Products\IndividualProduct.cs" />
