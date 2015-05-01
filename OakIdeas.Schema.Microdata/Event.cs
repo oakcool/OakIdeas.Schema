@@ -13,11 +13,7 @@ namespace OakIdeas.Schema.Microdata
         /// <summary>
         /// A person or organization attending the event.
         /// </summary>
-        public IEntity Attendee { get; set; }
-        /// <summary>
-        /// A person attending the event (legacy spelling; see singular form, attendee).
-        /// </summary>
-        public IEnumerable<IEntity> Attendees { get; set; }
+        public Thing Attendee { get; set; }
         /// <summary>
         /// The duration of the item (movie, audio recording, event, etc.) in ISO 8601 date format.
         /// </summary>
@@ -29,7 +25,7 @@ namespace OakIdeas.Schema.Microdata
         /// <summary>
         /// The location of the event or organization.
         /// </summary>
-        public ILocation Location { get; set; }
+        public Thing Location { get; set; }
         /// <summary>
         /// An offer to sell this item—for example, an offer to sell a product, the DVD of a movie, or tickets to an event.
         /// </summary>
@@ -37,11 +33,7 @@ namespace OakIdeas.Schema.Microdata
         /// <summary>
         /// A performer at the event—for example, a presenter, musician, musical group or actor.
         /// </summary>
-        public IEntity Performer { get; set; }
-        /// <summary>
-        /// The main performer or performers of the event—for example, a presenter, musician, or actor (legacy spelling; see singular form, performer).
-        /// </summary>
-        public IEnumerable<IEntity> Performers { get; set; }
+        public Thing Performer { get; set; }
         /// <summary>
         /// The start date and time of the event (in ISO 8601 date format).
         /// </summary>

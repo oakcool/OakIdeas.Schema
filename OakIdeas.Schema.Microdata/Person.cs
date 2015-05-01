@@ -46,7 +46,7 @@ namespace OakIdeas.Schema.Microdata
         /// <summary>
         /// The brand(s) associated with a product or service, or the brand(s) maintained by an organization or business person.
         /// </summary>
-        public IBrand Brand { get; set; }
+        public Thing Brand { get; set; }
         /// <summary>
         /// A child of the person.
         /// </summary>
@@ -110,7 +110,7 @@ namespace OakIdeas.Schema.Microdata
         /// <summary>
         /// A contact location for a person's residence.
         /// </summary>
-        public ILocation HomeLocation { get; set; }
+        public Thing HomeLocation { get; set; }
         /// <summary>
         /// An honorific prefix preceding a Person's name such as Dr/Mrs/Mr.
         /// </summary>
@@ -154,15 +154,11 @@ namespace OakIdeas.Schema.Microdata
         /// <summary>
         /// Products owned by the organization or person.
         /// </summary>
-        public IEnumerable<IOwn> Owns { get; set; }
+        public Thing Owns { get; set; }
         /// <summary>
-        /// A parent of this person.
+        /// A parent of this person. Supersedes parents.
         /// </summary>
         public Person Parent { get; set; }
-        /// <summary>
-        /// A parents of the person (legacy spelling; see singular form, parent).
-        /// </summary>
-        public IEnumerable<Person> Parents { get; set; }
         /// <summary>
         /// Event that this person is a performer or participant in.
         /// </summary>
@@ -202,7 +198,7 @@ namespace OakIdeas.Schema.Microdata
         /// <summary>
         /// A contact location for a person's place of work.
         /// </summary>
-        public ILocation WorkLocation { get; set; }
+        public Thing WorkLocation { get; set; }
         /// <summary>
         /// Organizations that the person works for.
         /// </summary>

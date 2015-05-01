@@ -50,7 +50,7 @@ namespace OakIdeas.Schema.Microdata.CreativeWorks.MediaObjects
         /// <summary>
         /// The height of the item.
         /// </summary>
-        public IQuantitativeValue Height { get; set; }
+        public Thing Height { get; set; }
         /// <summary>
         /// Player type required—for example, Flash or Silverlight.
         /// </summary>
@@ -70,7 +70,7 @@ namespace OakIdeas.Schema.Microdata.CreativeWorks.MediaObjects
         /// <summary>
         /// The width of the item.
         /// </summary>
-        public IQuantitativeValue Width { get; set; }
+        public Thing Width { get; set; }
 
     }
 }

@@ -30,7 +30,7 @@ namespace OakIdeas.Schema.Microdata.Intangibles.StructuredValues
         /// <summary>
         /// A pointer to a secondary value that provides additional information on the original value, e.g. a reference temperature.
         /// </summary>
-        public IValueReference ValueReference { get; set; }
+        public Thing ValueReference { get; set; }
 
     }
 }

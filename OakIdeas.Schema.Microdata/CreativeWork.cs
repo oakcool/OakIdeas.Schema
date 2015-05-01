@@ -46,7 +46,7 @@ namespace OakIdeas.Schema.Microdata
         /// <summary>
         /// The author of this content. Please note that author is special in that HTML 5 provides a special mechanism for indicating authorship via the rel tag. That is equivalent to this and may be used interchangeably.
         /// </summary>
-        public IEnumerable<IEntity> Author { get; set; }
+        public Thing Author { get; set; }
         /// <summary>
         /// An award won by this person or for this creative work.
         /// </summary>
@@ -58,7 +58,7 @@ namespace OakIdeas.Schema.Microdata
         /// <summary>
         /// Comments, typically from users, on this CreativeWork.
         /// </summary>
-        public IEnumerable<UserComment> Comments { get; set; }
+        public IEnumerable<UserComments> Comments { get; set; }
         /// <summary>
         /// The location of the content.
         /// </summary>
@@ -70,11 +70,11 @@ namespace OakIdeas.Schema.Microdata
         /// <summary>
         /// A secondary contributor to the CreativeWork.
         /// </summary>
-        public IEnumerable<IEntity> Contributor { get; set; }
+        public Thing Contributor { get; set; }
         /// <summary>
         /// The party holding the legal copyright to the CreativeWork.
         /// </summary>
-        public IEnumerable<IEntity> CopyrightHolder { get; set; }
+        public Thing CopyrightHolder { get; set; }
         /// <summary>
         /// The year during which the claimed copyright for the CreativeWork was first asserted.
         /// </summary>
@@ -82,7 +82,7 @@ namespace OakIdeas.Schema.Microdata
         /// <summary>
         /// The creator/author of this CreativeWork or UserComments. This is the same as the Author property for CreativeWork.
         /// </summary>
-        public IEnumerable<IEntity> Creator { get; set; }
+        public Thing Creator { get; set; }
         /// <summary>
         /// The date on which the CreativeWork was created.
         /// </summary>
@@ -158,7 +158,7 @@ namespace OakIdeas.Schema.Microdata
         /// <summary>
         /// Specifies the Person or Organization that distributed the CreativeWork.
         /// </summary>
-        public IEntity Provider { get; set; }
+        public Thing Provider { get; set; }
         /// <summary>
         /// The publisher of the creative work.
         /// </summary>

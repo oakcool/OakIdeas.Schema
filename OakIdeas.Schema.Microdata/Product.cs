@@ -4,6 +4,7 @@ using OakIdeas.Schema.Microdata.CreativeWorks;
 using OakIdeas.Schema.Microdata.CreativeWorks.MediaObjects;
 using OakIdeas.Schema.Microdata.Intangibles;
 using OakIdeas.Schema.Microdata.Intangibles.Audiences;
+using OakIdeas.Schema.Microdata.Intangibles.StructuredValues;
 using OakIdeas.Schema.Microdata.Products;
 
 namespace OakIdeas.Schema.Microdata
@@ -25,7 +26,7 @@ namespace OakIdeas.Schema.Microdata
         /// <summary>
         /// The brand(s) associated with a product or service, or the brand(s) maintained by an organization or business person.
         /// </summary>
-        public IBrand Brand { get; set; }
+        public Thing Brand { get; set; }
         /// <summary>
         /// The color of the product.
         /// </summary>
@@ -33,7 +34,7 @@ namespace OakIdeas.Schema.Microdata
         /// <summary>
         /// The depth of the product.
         /// </summary>
-        public IQuantitativeValue Depth { get; set; }
+        public Thing Depth { get; set; }
         /// <summary>
         /// The GTIN-13 code of the product, or the product to which the offer refers. This is equivalent to 13-digit ISBN codes and EAN UCC-13. Former 12-digit UPC codes can be converted into a GTIN-13 code by simply adding a preceeding zero.
         /// </summary>
@@ -49,11 +50,11 @@ namespace OakIdeas.Schema.Microdata
         /// <summary>
         /// The height of the item.
         /// </summary>
-        public IQuantitativeValue Height { get; set; }
+        public Thing Height { get; set; }
         /// <summary>
         /// A pointer to another product (or multiple products) for which this product is an accessory or spare part.
         /// </summary>
-        public IEnumerable<Product> IsAccessoryOrSparePartFor { get; set; }
+        public Product IsAccessoryOrSparePartFor { get; set; }
         /// <summary>
         /// A pointer to another, somehow related product (or multiple products).
         /// </summary>
@@ -83,9 +84,9 @@ namespace OakIdeas.Schema.Microdata
         /// </summary>
         public string Mpn { get; set; }
         /// <summary>
-        /// An offer to sell this item—for example, an offer to sell a product, the DVD of a movie, or tickets to an event.
+        /// An offer to provide this item—for example, an offer to sell a product, rent the DVD of a movie, or give away tickets to an event.
         /// </summary>
-        public IEnumerable<Offer> Offers { get; set; }
+        public Offer Offer { get; set; }
         /// <summary>
         /// The product identifier, such as ISBN. For example: <meta itemprop='productID' content='isbn:123-456-789'/>.
         /// </summary>
@@ -99,20 +100,16 @@ namespace OakIdeas.Schema.Microdata
         /// </summary>
         public Review Review { get; set; }
         /// <summary>
-        /// Review of the item (legacy spelling; see singular form, review).
-        /// </summary>
-        public IEnumerable<Review> Reviews { get; set; }
-        /// <summary>
-        /// The Stock Keeping Unit (SKU), i.e. a merchant-specific identifier for a product or service, or the product to which the offer refers.
+        /// A review of the item. Supersedes reviews.
         /// </summary>
         public string Sku { get; set; }
         /// <summary>
-        /// The weight of the product.
+        /// The weight of the product or person.
         /// </summary>
-        public IQuantitativeValue Weight { get; set; }
+        public QuantitativeValue Weight { get; set; }
         /// <summary>
         /// The width of the item.
         /// </summary>
-        public IQuantitativeValue Width { get; set; }
+        public Thing Width { get; set; }
     }
 }

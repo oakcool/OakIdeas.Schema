@@ -63,7 +63,7 @@ namespace OakIdeas.Schema.Microdata.Intangibles
         /// <summary>
         /// The ISO 3166-1 (ISO 3166-1 alpha-2) or ISO 3166-2 code, or the GeoShape for the geo-political region(s) for which the offer or delivery charge specification is valid.
         /// </summary>
-        public IGeoInfo EligibleRegion { get; set; }
+        public GeoShape EligibleRegion { get; set; }
         /// <summary>
         /// The transaction volume, in a monetary unit, for which the offer or price specification is valid, e.g. for indicating a minimal purchasing volume, to express free shipping above a certain order volume, or to limit the acceptance of credit cards to purchases to a certain minimal amount.
         /// </summary>
@@ -107,7 +107,7 @@ namespace OakIdeas.Schema.Microdata.Intangibles
         /// <summary>
         /// The seller.
         /// </summary>
-        public IEntity Seller { get; set; }
+        public Thing Seller { get; set; }
         /// <summary>
         /// The serial number or any alphanumeric identifier of a particular product. When attached to an offer, it is a shortcut for the serial number of the product included in the offer.
         /// </summary>

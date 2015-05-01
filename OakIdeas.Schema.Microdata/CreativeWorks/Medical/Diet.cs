@@ -13,7 +13,7 @@ namespace OakIdeas.Schema.Microdata.CreativeWorks.Medical
         /// <summary>
         /// People or organizations that endorse the plan.
         /// </summary>
-        public IEntity Endorsers { get; set; }
+        public Thing Endorsers { get; set; }
         /// <summary>
         /// Medical expert advice related to the plan.
         /// </summary>

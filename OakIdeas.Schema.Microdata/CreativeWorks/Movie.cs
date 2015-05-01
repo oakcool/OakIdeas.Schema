@@ -31,7 +31,7 @@ namespace OakIdeas.Schema.Microdata.CreativeWorks
         /// <summary>
         /// The composer of the movie or TV soundtrack.
         /// </summary>
-        public IMusicWriter MusicBy { get; set; }
+        public Thing MusicBy { get; set; }
         /// <summary>
         /// The producer of the movie, TV series, season, or episode, or video.
         /// </summary>

@@ -56,8 +56,8 @@
     <!-- A reference to the entire .NET Framework is automatically included -->
     <None Include="CreativeWorks\CreativeWorksDiagram.cd" />
     <None Include="Events\EventDiagram.cd" />
+    <None Include="FullClassDiagram.cd" />
     <None Include="Intangibles\IntangiblesDiagram.cd" />
-    <None Include="ThingsDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Action.cs" />
@@ -93,7 +93,6 @@
     <Compile Include="CreativeWorks\Medical\ExercisePlan.cs" />
     <Compile Include="CreativeWorks\Medical\MedicalTherapy.cs" />
     <Compile Include="CreativeWorks\Movie.cs" />
-    <Compile Include="CreativeWorks\Music\IMusicWriter.cs" />
     <Compile Include="CreativeWorks\Music\MusicAlbum.cs" />
     <Compile Include="CreativeWorks\Music\MusicPlaylist.cs" />
     <Compile Include="CreativeWorks\Music\MusicRecording.cs" />
@@ -143,7 +142,7 @@
     <Compile Include="Events\UserInteraction.cs" />
     <Compile Include="Events\UserInteractions\UserBlocks.cs" />
     <Compile Include="Events\UserInteractions\UserCheckins.cs" />
-    <Compile Include="Events\UserInteractions\UserComment.cs" />
+    <Compile Include="Events\UserInteractions\UserComments.cs" />
     <Compile Include="Events\UserInteractions\UserDownloads.cs" />
     <Compile Include="Events\UserInteractions\UserLikes.cs" />
     <Compile Include="Events\UserInteractions\UserPageVisits.cs" />
@@ -151,10 +150,6 @@
     <Compile Include="Events\UserInteractions\UserPlusOnes.cs" />
     <Compile Include="Events\UserInteractions\UserTweets.cs" />
     <Compile Include="Events\VisualArtsEvent.cs" />
-    <Compile Include="IBrand.cs" />
-    <Compile Include="IEntity.cs" />
-    <Compile Include="IGeoInfo.cs" />
-    <Compile Include="ILocation.cs" />
     <Compile Include="Intangible.cs" />
     <Compile Include="Intangibles\AggregateRating.cs" />
     <Compile Include="Intangibles\AlignmentObject.cs" />
@@ -186,7 +181,7 @@
     <Compile Include="Intangibles\Quantities\Quantity.cs" />
     <Compile Include="Intangibles\Rating.cs" />
     <Compile Include="Intangibles\StructuredValues\ContactPoint.cs" />
-    <Compile Include="Intangibles\StructuredValues\IValueReference.cs" />
+    <Compile Include="Intangibles\StructuredValues\GeoShape.cs" />
     <Compile Include="Intangibles\StructuredValues\OppeningHoursSpecification.cs" />
     <Compile Include="Intangibles\StructuredValues\PriceSpecifications\DeliveryChargeSpecification.cs" />
     <Compile Include="Intangibles\StructuredValues\PriceSpecifications\PaymentChargeSpecification.cs" />
@@ -197,9 +192,6 @@
     <Compile Include="Intangibles\StructuredValues\TypeAndQuantityNode.cs" />
     <Compile Include="Intangibles\StructuredValues\WarrantyPromise.cs" />
     <Compile Include="InterationCount.cs" />
-    <Compile Include="IOwn.cs" />
-    <Compile Include="IPhoto.cs" />
-    <Compile Include="IQuantitativeValue.cs" />
     <Compile Include="MedicalEntities\MedicalCode.cs" />
     <Compile Include="MedicalEntities\MedicalCondition.cs" />
     <Compile Include="MedicalEntities\MedicalGuideLine.cs" />
@@ -268,6 +260,8 @@
     <Compile Include="Place.cs" />
     <Compile Include="Places\AdministrativeArea.cs" />
     <Compile Include="Places\LocalBusiness.cs" />
+    <Compile Include="Places\LocalBusinesses\Store.cs" />
+    <Compile Include="Places\LocalBusinesses\Stores\AutoPartsStore.cs" />
     <Compile Include="PostalAddress.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Products\IndividualProduct.cs" />

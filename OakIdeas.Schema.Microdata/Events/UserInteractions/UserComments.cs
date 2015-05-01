@@ -7,7 +7,7 @@ namespace OakIdeas.Schema.Microdata.Events.UserInteractions
     /// The UserInteraction event in which a user comments on an item.
     /// </summary>
     /// <see cref="http://www.schema.org/UserComments"/>
-    public class UserComment : UserInteraction
+    public class UserComments : UserInteraction
     {
         /// <summary>
         /// The text of the UserComment.
@@ -20,7 +20,7 @@ namespace OakIdeas.Schema.Microdata.Events.UserInteractions
         /// <summary>
         /// The creator/author of this CreativeWork or UserComments. This is the same as the Author property for CreativeWork.
         /// </summary>
-        public IOwn Creator { get; set; }
+        public Thing Creator { get; set; }
         /// <summary>
         /// Specifies the CreativeWork associated with the UserComment.
         /// </summary>

@@ -12,13 +12,9 @@ namespace OakIdeas.Schema.Microdata.CreativeWorks.TV
     public class TVEpisode : CreativeWork
     {
         /// <summary>
-        /// A cast member of the movie, TV series, season, or episode, or video.
+        /// An actor, e.g. in tv, radio, movie, video games etc. Actors can be associated with individual items or with a series, episode, clip. Supersedes actors.
         /// </summary>
         public Person Actor { get; set; }
-        /// <summary>
-        /// A cast member of the movie, TV series, season, or episode, or video. (legacy spelling; see singular form, actor)
-        /// </summary>
-        public IEnumerable<Person> Actors { get; set; }
         /// <summary>
         /// The director of the movie, TV episode, or series.
         /// </summary>
@@ -30,7 +26,7 @@ namespace OakIdeas.Schema.Microdata.CreativeWorks.TV
         /// <summary>
         /// The composer of the movie or TV soundtrack.
         /// </summary>
-        public IMusicWriter MusicBy { get; set; }
+        public Thing MusicBy { get; set; }
         /// <summary>
         /// The season to which this episode belongs.
         /// </summary>
@@ -50,6 +46,6 @@ namespace OakIdeas.Schema.Microdata.CreativeWorks.TV
         /// <summary>
         /// The trailer of the movie or TV series, season, or episode.
         /// </summary>
-        public IEnumerable<VideoObject> Trailer { get; set; }
+        public VideoObject Trailer { get; set; }
     }
 }

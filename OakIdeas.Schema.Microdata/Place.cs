@@ -39,7 +39,7 @@ namespace OakIdeas.Schema.Microdata
         /// <summary>
         /// The geo coordinates of the place.
         /// </summary>
-        public IEnumerable<IGeoInfo> Geo { get; set; }
+        public Thing Geo { get; set; }
         /// <summary>
         /// The Global Location Number (GLN, sometimes also referred to as International Location Number or ILN) of the respective organization, person, or place. The GLN is a 13-digit number used to identify parties and physical locations.
         /// </summary>
@@ -71,11 +71,7 @@ namespace OakIdeas.Schema.Microdata
         /// <summary>
         /// A photograph of this place.
         /// </summary>
-        public IPhoto Photo { get; set; }
-        /// <summary>
-        /// Photographs of this place (legacy spelling; see singular form, photo).
-        /// </summary>
-        public IEnumerable<IPhoto> Photos { get; set; }
+        public Thing Photo { get; set; }
         /// <summary>
         /// A review of the item.
         /// </summary>
