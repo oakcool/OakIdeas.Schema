@@ -10,7 +10,7 @@ namespace OakIdeas.Schema.Core.Intangibles
     /// An entry point, within some Web-based protocol.
     /// </summary>
     /// /// <see cref="http://www.schema.org/EntryPoint"/>
-    public class EntryPoint : Thing
+    public class EntryPoint : Intangible
     {
         /// <summary>
         /// An application that can complete the request.

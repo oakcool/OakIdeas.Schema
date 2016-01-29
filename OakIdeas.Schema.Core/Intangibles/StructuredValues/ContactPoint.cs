@@ -1,6 +1,6 @@
 namespace OakIdeas.Schema.Core.Intangibles.StructuredValues
 {
-    public class ContactPoint
+    public class ContactPoint : StructuredValue
     {
     }
 }

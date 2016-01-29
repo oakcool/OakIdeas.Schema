@@ -9,7 +9,7 @@ namespace OakIdeas.Schema.Core.Intangibles
     /// A class, also often called a 'Type'; equivalent to rdfs:Class.
     /// </summary>
     /// <see cref="http://www.schema.org/Class"/>
-    public class Class : Thing
+    public class Class : Intangible
     {
     }
 }

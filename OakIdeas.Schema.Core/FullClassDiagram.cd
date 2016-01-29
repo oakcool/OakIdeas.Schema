@@ -1,1470 +1,1521 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
-  <Class Name="OakIdeas.Schema.Core.Actions.AchieveAction" Collapsed="true">
-    <Position X="24.25" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Actions\AchieveAction.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Actions.AchieveActions.LoseAction" Collapsed="true">
-    <Position X="22" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Actions\AchieveActions\LoseAction.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Actions.AchieveActions.TieAction" Collapsed="true">
-    <Position X="24.25" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Actions\AchieveActions\TieAction.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Actions.AchieveActions.WinAction" Collapsed="true">
-    <Position X="26.5" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Actions\AchieveActions\WinAction.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Articles.APIReference" Collapsed="true">
-    <Position X="168.5" Y="6.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>EAAAQAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\Articles\APIReference.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Articles.Article" Collapsed="true">
-    <Position X="167.25" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>gAAAAAAAAAAAAiAAAAAAAAAAIAAAAAAAAAAABAAAQAA=</HashCode>
-      <FileName>CreativeWorks\Articles\Article.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Articles.MedicalScholarlyArticle" Collapsed="true">
-    <Position X="165.75" Y="6.25" Width="2" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAABAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\Articles\MedicalScholarlyArticle.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Articles.NewsArticle" Collapsed="true">
-    <Position X="163.5" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AEAgAAQAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\Articles\NewsArticle.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Articles.ScholarlyArticle" Collapsed="true">
-    <Position X="166" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\Articles\ScholarlyArticle.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Articles.TechArticle" Collapsed="true">
-    <Position X="168.5" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\Articles\TechArticle.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Blogs.Blog" Collapsed="true">
-    <Position X="186.5" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
-      <FileName>CreativeWorks\Blogs\Blog.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Blogs.BlogPosting" Collapsed="true">
-    <Position X="170.75" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\Blogs\BlogPosting.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Books.Book" Collapsed="true">
-    <Position X="213.75" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAQEAAAAAACAAAAAAAAAAAAAAAIAAAACAAAA=</HashCode>
-      <FileName>CreativeWorks\Books\Book.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Books.BookFormatType" Collapsed="true">
-    <Position X="363.75" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\Books\BookFormatType.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Code" Collapsed="true">
-    <Position X="234.5" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AQAAAAAAQAAAEAAACAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\Code.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Comment" Collapsed="true">
-    <Position X="138.75" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\Comment.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.ItemList" Collapsed="true">
-    <Position X="143.25" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAEAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\ItemList.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.ItemListElement" Collapsed="true">
-    <Position X="367.25" Y="2.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\ItemListElement.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Map" Collapsed="true">
-    <Position X="159" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\Map.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Movie" Collapsed="true">
-    <Position X="161.25" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAABAAAAACgAAAAACCAAAAAAAQAAAAAAAAAAAgAAA=</HashCode>
-      <FileName>CreativeWorks\Movie.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Painting" Collapsed="true">
-    <Position X="173" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\Painting.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Photograph" Collapsed="true">
-    <Position X="177.5" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\Photograph.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.PhysicalActivity" Collapsed="true">
-    <Position X="365.5" Y="4.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\PhysicalActivity.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Recipe" Collapsed="true">
-    <Position X="182" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAABAAAEAIAAAAgAAEAAKAAAAAQCAEAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\Recipe.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Review" Collapsed="true">
-    <Position X="184.25" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAgAAAAAAAAAIAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\Review.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Sculpture" Collapsed="true">
-    <Position X="188.75" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\Sculpture.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.SoftwareApplication" Collapsed="true">
-    <Position X="310" Y="1.75" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAQAgAAAAACAAgBAAAAgAAQACAIAUAAAGQBgQACAIgY=</HashCode>
-      <FileName>CreativeWorks\SoftwareApplication.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Data.DataCatalog" Collapsed="true">
-    <Position X="216" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\Data\DataCatalog.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Data.Dataset" Collapsed="true">
-    <Position X="218.25" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAACAAAAAAAAQAAAAAAAABAgAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\Data\Dataset.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.MediaObjects.AudioObject" Collapsed="true">
-    <Position X="156.75" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\MediaObjects\AudioObject.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.MediaObjects.DataDownload" Collapsed="true">
-    <Position X="147.75" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\MediaObjects\DataDownload.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.MediaObjects.ImageObject" Collapsed="true">
-    <Position X="150" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAECACAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\MediaObjects\ImageObject.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.MediaObjects.MediaObject" Collapsed="true">
-    <Position X="152.25" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAABAACAAAAgAIQAEAAAACMAAAAIAAAAABAIwA=</HashCode>
-      <FileName>CreativeWorks\MediaObjects\MediaObject.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.MediaObjects.MusicVideoObject" Collapsed="true">
-    <Position X="152.25" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\MediaObjects\MusicVideoObject.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.MediaObjects.VideoObject" Collapsed="true">
-    <Position X="154.5" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAADQAAAAAAAAAACgAAAAAgAAA=</HashCode>
-      <FileName>CreativeWorks\MediaObjects\VideoObject.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Medical.Diet" Collapsed="true">
-    <Position X="175.25" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAACAAACAgAAEAgAAgIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\Medical\Diet.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Medical.ExercisePlan" Collapsed="true">
-    <Position X="179.75" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAIAQAAAAAAgBAEQECAIBA=</HashCode>
-      <FileName>CreativeWorks\Medical\ExercisePlan.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Medical.MedicalTherapy" Collapsed="true">
-    <Position X="367.25" Y="3.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\Medical\MedicalTherapy.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Music.MusicAlbum" Collapsed="true">
-    <Position X="191" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\Music\MusicAlbum.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Music.MusicPlaylist" Collapsed="true">
-    <Position X="191" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\Music\MusicPlaylist.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Music.MusicRecording" Collapsed="true">
-    <Position X="211.5" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAACAAAAAAAEAAAAAAAAAAAAQAAAAgAAAAA=</HashCode>
-      <FileName>CreativeWorks\Music\MusicRecording.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Software.MobileApplication" Collapsed="true">
-    <Position X="309" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\Software\MobileApplication.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Software.WebApplication" Collapsed="true">
-    <Position X="311.25" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\Software\WebApplication.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.TV.TVEpisode" Collapsed="true">
-    <Position X="236.75" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAABAAAAACgAAAAACCAAAAAIQQAAAAAAAAAAAgAAA=</HashCode>
-      <FileName>CreativeWorks\TV\TVEpisode.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.TV.TVSeason" Collapsed="true">
-    <Position X="141" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAABACAAAAAAAQACAAAgAJAAAAAAAAAAAEAAAAA=</HashCode>
-      <FileName>CreativeWorks\TV\TVSeason.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.TV.TVSeries" Collapsed="true">
-    <Position X="145.5" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAABIBASAAgAAAAQCAAABgAAAQAAAAAAAAAEAgAAA=</HashCode>
-      <FileName>CreativeWorks\TV\TVSeries.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.WebPages.AboutPage" Collapsed="true">
-    <Position X="193.25" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\WebPages\AboutPage.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.WebPages.CheckoutPage" Collapsed="true">
-    <Position X="195.5" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\WebPages\CheckoutPage.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.WebPages.CollectionPage" Collapsed="true">
-    <Position X="197.75" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\WebPages\CollectionPage.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.WebPages.ContactPage" Collapsed="true">
-    <Position X="200" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\WebPages\ContactPage.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.WebPages.ItemPage" Collapsed="true">
-    <Position X="202.25" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\WebPages\ItemPage.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.WebPages.MedicalWebPage" Collapsed="true">
-    <Position X="204.5" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\WebPages\MedicalWebPage.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.WebPages.ProfilePage" Collapsed="true">
-    <Position X="206.75" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\WebPages\ProfilePage.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.WebPages.SearchResultsPage" Collapsed="true">
-    <Position X="209" Y="4.75" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\WebPages\SearchResultsPage.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.WebPages.WebPage" Collapsed="true">
-    <Position X="201.25" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\WebPages\WebPage.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.WebPages.Elements.SiteNavigationElement" Collapsed="true">
-    <Position X="227.25" Y="4.75" Width="2" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\WebPages\Elements\SiteNavigationElement.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.WebPages.Elements.Table" Collapsed="true">
-    <Position X="230" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\WebPages\Elements\Table.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.WebPages.Elements.WebPageElement" Collapsed="true">
-    <Position X="226.5" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\WebPages\Elements\WebPageElement.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.WebPages.Elements.WPAdBlock" Collapsed="true">
-    <Position X="232.25" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\WebPages\Elements\WPAdBlock.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.WebPages.Elements.WPFooter" Collapsed="true">
-    <Position X="220.5" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\WebPages\Elements\WPFooter.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.WebPages.Elements.WPHeader" Collapsed="true">
-    <Position X="222.75" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\WebPages\Elements\WPHeader.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.CreativeWorks.WebPages.Elements.WPSideBar" Collapsed="true">
-    <Position X="225" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>CreativeWorks\WebPages\Elements\WPSideBar.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Events.BusinessEvent" Collapsed="true">
-    <Position X="270.75" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Events\BusinessEvent.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Events.ChildrensEvent" Collapsed="true">
-    <Position X="273" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Events\ChildrensEvent.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Events.ComedyEvent" Collapsed="true">
-    <Position X="275.25" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Events\ComedyEvent.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Events.DanceEvent" Collapsed="true">
-    <Position X="277.5" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Events\DanceEvent.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Events.EducationEvent" Collapsed="true">
-    <Position X="279.75" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Events\EducationEvent.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Events.Festival" Collapsed="true">
-    <Position X="282" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Events\Festival.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Events.FoodEvent" Collapsed="true">
-    <Position X="284.25" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Events\FoodEvent.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Events.LiteraryEvent" Collapsed="true">
-    <Position X="286.5" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Events\LiteraryEvent.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Events.MusicEvent" Collapsed="true">
-    <Position X="288.75" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Events\MusicEvent.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Events.SaleEvent" Collapsed="true">
-    <Position X="291" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Events\SaleEvent.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Events.SocialEvent" Collapsed="true">
-    <Position X="293.25" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Events\SocialEvent.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Events.SportsEvent" Collapsed="true">
-    <Position X="295.5" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Events\SportsEvent.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Events.TheaterEvent" Collapsed="true">
-    <Position X="246" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Events\TheaterEvent.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Events.UserInteraction" Collapsed="true">
-    <Position X="257.25" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Events\UserInteraction.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Events.VisualArtsEvent" Collapsed="true">
-    <Position X="268.5" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Events\VisualArtsEvent.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Events.UserInteractions.UserBlocks" Collapsed="true">
-    <Position X="248.25" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Events\UserInteractions\UserBlocks.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Events.UserInteractions.UserCheckins" Collapsed="true">
-    <Position X="250.5" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Events\UserInteractions\UserCheckins.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Events.UserInteractions.UserComment" Collapsed="true">
-    <Position X="252.75" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAQBAAAAAAAAAAAAAgAAAAAAAAAEAAAAQAAAAA=</HashCode>
-      <FileName>Events\UserInteractions\UserComment.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Events.UserInteractions.UserDownloads" Collapsed="true">
-    <Position X="255" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Events\UserInteractions\UserDownloads.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Events.UserInteractions.UserLikes" Collapsed="true">
-    <Position X="257.25" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Events\UserInteractions\UserLikes.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Events.UserInteractions.UserPageVisits" Collapsed="true">
-    <Position X="259.5" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Events\UserInteractions\UserPageVisits.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Events.UserInteractions.UserPlays" Collapsed="true">
-    <Position X="261.75" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Events\UserInteractions\UserPlays.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Events.UserInteractions.UserPlusOnes" Collapsed="true">
-    <Position X="264" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Events\UserInteractions\UserPlusOnes.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Events.UserInteractions.UserTweets" Collapsed="true">
-    <Position X="266.25" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Events\UserInteractions\UserTweets.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.AggregateRating" Collapsed="true">
-    <Position X="340.75" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAgAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAQAAAAA=</HashCode>
-      <FileName>Intangibles\AggregateRating.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.AlignmentObject" Collapsed="true">
-    <Position X="359" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAiAAQAABAAAAA=</HashCode>
-      <FileName>Intangibles\AlignmentObject.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.Brand" Collapsed="true">
-    <Position X="361.25" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Intangibles\Brand.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.Class" Collapsed="true">
-    <Position X="17.5" Y="1.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Intangibles\Class.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.Demand" Collapsed="true">
-    <Position X="313.5" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>IAIAEAAAEwAIAAAACAABMEAAAQsBABEAESAAAAAAGgI=</HashCode>
-      <FileName>Intangibles\Demand.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.Duration" Collapsed="true">
-    <Position X="350" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Intangibles\Duration.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.Energy" Collapsed="true">
-    <Position X="352.25" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Intangibles\Energy.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.EntryPoint" Collapsed="true">
-    <Position X="136.5" Y="1.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAABAAAAAAAIAAAgAAAQAAAAAAAAAQAAAAAAA=</HashCode>
-      <FileName>Intangibles\EntryPoint.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.JobPosting" Collapsed="true">
-    <Position X="334" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>EAAAAAAAhAAABUMQAAgAAAEgAAkAAAAQIAACgAAAAAA=</HashCode>
-      <FileName>Intangibles\JobPosting.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.Language" Collapsed="true">
-    <Position X="336.25" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Intangibles\Language.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.NutrionInformation" Collapsed="true">
-    <Position X="331.5" Y="4.75" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>MAAAAAAAEAABAAAAgAQAAAAAAAQQIQAAAAAAAAAAAEA=</HashCode>
-      <FileName>Intangibles\NutrionInformation.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.Offer" Collapsed="true">
-    <Position X="338.5" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Intangibles\Offer.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.Property" Collapsed="true">
-    <Position X="306.75" Y="1.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Intangibles\Property.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.Rating" Collapsed="true">
-    <Position X="340.75" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAIgAAAA=</HashCode>
-      <FileName>Intangibles\Rating.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.Audiences.Audience" Collapsed="true">
-    <Position X="345.5" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Intangibles\Audiences\Audience.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.Audiences.EducationalAudience" Collapsed="true">
-    <Position X="347.5" Y="4.75" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
-      <FileName>Intangibles\Audiences\EducationalAudience.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.Audiences.MedicalAudience" Collapsed="true">
-    <Position X="343" Y="6.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
-      <FileName>Intangibles\Audiences\MedicalAudience.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.Audiences.ParentAudience" Collapsed="true">
-    <Position X="345.25" Y="6.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Intangibles\Audiences\ParentAudience.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.Audiences.PeopleAudience" Collapsed="true">
-    <Position X="344.25" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AgAAAAECAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Intangibles\Audiences\PeopleAudience.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.Enumerations.BusinessEntityType" Collapsed="true">
-    <Position X="365.5" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Intangibles\Enumerations\BusinessEntityType.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.Enumerations.BusinessFunction" Collapsed="true">
-    <Position X="367.25" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Intangibles\Enumerations\BusinessFunction.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.Enumerations.WarrantyScope" Collapsed="true">
-    <Position X="369" Y="4.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Intangibles\Enumerations\WarrantyScope.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.Enumerations.DeliveryMethods.DeliveryMethod" Collapsed="true">
-    <Position X="3.5" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Intangibles\Enumerations\DeliveryMethods\DeliveryMethod.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.Enumerations.DeliveryMethods.ParcelService" Collapsed="true">
-    <Position X="3.5" Y="1.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Intangibles\Enumerations\DeliveryMethods\ParcelService.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.Enumerations.PaymentMethods.CreditCard" Collapsed="true">
-    <Position X="0.5" Y="1.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Intangibles\Enumerations\PaymentMethods\CreditCard.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.Enumerations.PaymentMethods.PaymentMethod" Collapsed="true">
-    <Position X="0.5" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Intangibles\Enumerations\PaymentMethods\PaymentMethod.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.Quantities.Duration" Collapsed="true">
-    <Position X="354.5" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Intangibles\Quantities\Duration.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.Quantities.Mass" Collapsed="true">
-    <Position X="356.75" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Intangibles\Quantities\Mass.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.Quantities.Quantity" Collapsed="true">
-    <Position X="353.5" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Intangibles\Quantities\Quantity.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.StructuredValues.ContactPoint" Collapsed="true">
-    <Position X="369" Y="0.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Intangibles\StructuredValues\ContactPoint.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.StructuredValues.OppeningHoursSpecification" Collapsed="true">
-    <Position X="363.75" Y="4.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Intangibles\StructuredValues\OppeningHoursSpecification.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.StructuredValues.QuantitativeValue" Collapsed="true">
-    <Position X="315.75" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAACgAAAAAAAIAAAAAAAAAAAAgAAAAAAA=</HashCode>
-      <FileName>Intangibles\StructuredValues\QuantitativeValue.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.StructuredValues.StructuredValue" Collapsed="true">
-    <Position X="323.75" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Intangibles\StructuredValues\StructuredValue.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.StructuredValues.TypeAndQuantityNode" Collapsed="true">
-    <Position X="318" Y="4.75" Width="2" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAEAoAAAAAAAAAAAAIAAAAAAA=</HashCode>
-      <FileName>Intangibles\StructuredValues\TypeAndQuantityNode.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.StructuredValues.WarrantyPromise" Collapsed="true">
-    <Position X="320.75" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Intangibles\StructuredValues\WarrantyPromise.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.StructuredValues.PriceSpecifications.DeliveryChargeSpecification" Collapsed="true">
-    <Position X="323" Y="6.25" Width="2.25" />
-    <TypeIdentifier>
-      <HashCode>AAEAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Intangibles\StructuredValues\PriceSpecifications\DeliveryChargeSpecification.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.StructuredValues.PriceSpecifications.PaymentChargeSpecification" Collapsed="true">
-    <Position X="326" Y="6.25" Width="2.25" />
-    <TypeIdentifier>
-      <HashCode>AAEAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Intangibles\StructuredValues\PriceSpecifications\PaymentChargeSpecification.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.StructuredValues.PriceSpecifications.PriceSpecification" Collapsed="true">
-    <Position X="326.25" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>BAAAEAAABQAAAAAAAAAAAAAAAAAAABAAACAABAAAAAg=</HashCode>
-      <FileName>Intangibles\StructuredValues\PriceSpecifications\PriceSpecification.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Intangibles.StructuredValues.PriceSpecifications.UnitPriceSpecification" Collapsed="true">
-    <Position X="329" Y="6.25" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAIIAAAAAAAAAAAAAAAgAAAA=</HashCode>
-      <FileName>Intangibles\StructuredValues\PriceSpecifications\UnitPriceSpecification.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.MedicalEntities.MedicalCode" Collapsed="true">
-    <Position X="370.75" Y="2.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>MedicalEntities\MedicalCode.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.MedicalEntities.MedicalCondition" Collapsed="true">
-    <Position X="19.75" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>MedicalEntities\MedicalCondition.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.MedicalEntities.MedicalGuideLine" Collapsed="true">
-    <Position X="372.5" Y="2.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>MedicalEntities\MedicalGuideLine.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.MedicalEntities.MedicalSpecialty" Collapsed="true">
-    <Position X="363.75" Y="3.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>MedicalEntities\MedicalSpecialty.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.MedicalEntities.MedicalStudy" Collapsed="true">
-    <Position X="365.5" Y="3.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>MedicalEntities\MedicalStudy.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.MedicalEntities.MedicineSystem" Collapsed="true">
-    <Position X="369" Y="3.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>MedicalEntities\MedicineSystem.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.Corporation" Collapsed="true">
-    <Position X="134.25" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\Corporation.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.EducationalOrganization" Collapsed="true">
-    <Position X="35" Y="3.25" Width="2" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\EducationalOrganization.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.GovernmentOrganization" Collapsed="true">
-    <Position X="43.75" Y="3.25" Width="2" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\GovernmentOrganization.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.NGO" Collapsed="true">
-    <Position X="46.5" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\NGO.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.PerformingGroup" Collapsed="true">
-    <Position X="128.5" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\PerformingGroup.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.SportsOrganization" Collapsed="true">
-    <Position X="131.75" Y="3.25" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
-      <FileName>Organizations\SportsOrganization.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.EducationalOrganizations.CollegeOrUniversity" Collapsed="true">
-    <Position X="28.75" Y="4.75" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\EducationalOrganizations\CollegeOrUniversity.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.EducationalOrganizations.ElementarySchool" Collapsed="true">
-    <Position X="31.25" Y="4.75" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\EducationalOrganizations\ElementarySchool.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.EducationalOrganizations.HighSchool" Collapsed="true">
-    <Position X="33.75" Y="4.75" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\EducationalOrganizations\HighSchool.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.EducationalOrganizations.MiddleSchool" Collapsed="true">
-    <Position X="36.25" Y="4.75" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\EducationalOrganizations\MiddleSchool.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.EducationalOrganizations.Preschool" Collapsed="true">
-    <Position X="38.75" Y="4.75" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\EducationalOrganizations\Preschool.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.EducationalOrganizations.School" Collapsed="true">
-    <Position X="41.25" Y="4.75" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\EducationalOrganizations\School.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.AnimalShelter" Collapsed="true">
-    <Position X="108.25" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\AnimalShelter.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.AutomotiveBusiness" Collapsed="true">
-    <Position X="110.5" Y="4.75" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\AutomotiveBusiness.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.ChildCare" Collapsed="true">
-    <Position X="113" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\ChildCare.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.DryCleaningOrLaundry" Collapsed="true">
-    <Position X="115.25" Y="4.75" Width="2" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\DryCleaningOrLaundry.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.EmergencyService" Collapsed="true">
-    <Position X="48.75" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\EmergencyService.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.EmploymentAgency" Collapsed="true">
-    <Position X="66" Y="4.75" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\EmploymentAgency.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.LocalBusiness" Collapsed="true">
-    <Position X="87" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>EAAAAAAAAAAFAAAAAAAQAAAAAAAAAAAAAEAAACAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\LocalBusiness.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.EntertainmentBusinesses.AdultEntertainment" Collapsed="true">
-    <Position X="90" Y="6.25" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\EntertainmentBusinesses\AdultEntertainment.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.EntertainmentBusinesses.AmusementPark" Collapsed="true">
-    <Position X="92.5" Y="6.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\EntertainmentBusinesses\AmusementPark.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.EntertainmentBusinesses.ArtGallery" Collapsed="true">
-    <Position X="94.75" Y="6.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\EntertainmentBusinesses\ArtGallery.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.EntertainmentBusinesses.Casino" Collapsed="true">
-    <Position X="97" Y="6.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\EntertainmentBusinesses\Casino.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.EntertainmentBusinesses.ComedyClub" Collapsed="true">
-    <Position X="99.25" Y="6.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\EntertainmentBusinesses\ComedyClub.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.EntertainmentBusinesses.EntertainmentBusiness" Collapsed="true">
-    <Position X="96.75" Y="4.75" Width="2" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\EntertainmentBusinesses\EntertainmentBusiness.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.EntertainmentBusinesses.MovieTheater" Collapsed="true">
-    <Position X="101.5" Y="6.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\EntertainmentBusinesses\MovieTheater.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.EntertainmentBusinesses.NightClub" Collapsed="true">
-    <Position X="103.75" Y="6.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\EntertainmentBusinesses\NightClub.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.FinancialServices.AccountingService" Collapsed="true">
-    <Position X="120.25" Y="6.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\FinancialServices\AccountingService.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.FinancialServices.AutomatedTeller" Collapsed="true">
-    <Position X="122.5" Y="6.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\FinancialServices\AutomatedTeller.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.FinancialServices.BankOrCreditUnion" Collapsed="true">
-    <Position X="124.75" Y="6.25" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\FinancialServices\BankOrCreditUnion.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.FinancialServices.FinancialService" Collapsed="true">
-    <Position X="121.5" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\FinancialServices\FinancialService.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.FinancialServices.InsuranceAgency" Collapsed="true">
-    <Position X="118" Y="6.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\FinancialServices\InsuranceAgency.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.FoodEstablishments.Bakery" Collapsed="true">
-    <Position X="71.75" Y="6.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\FoodEstablishments\Bakery.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.FoodEstablishments.BarOrPub" Collapsed="true">
-    <Position X="74" Y="6.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\FoodEstablishments\BarOrPub.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.FoodEstablishments.Brewery" Collapsed="true">
-    <Position X="76.25" Y="6.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\FoodEstablishments\Brewery.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.FoodEstablishments.CafeOrCoffeeShop" Collapsed="true">
-    <Position X="78.5" Y="6.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\FoodEstablishments\CafeOrCoffeeShop.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.FoodEstablishments.FastFoodRestaurant" Collapsed="true">
-    <Position X="80.75" Y="6.25" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\FoodEstablishments\FastFoodRestaurant.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.FoodEstablishments.FoodEstablishment" Collapsed="true">
-    <Position X="79.75" Y="4.75" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAABAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\FoodEstablishments\FoodEstablishment.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.FoodEstablishments.IceCreamShop" Collapsed="true">
-    <Position X="83.25" Y="6.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\FoodEstablishments\IceCreamShop.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.FoodEstablishments.Restaurant" Collapsed="true">
-    <Position X="85.5" Y="6.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\FoodEstablishments\Restaurant.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.FoodEstablishments.Winery" Collapsed="true">
-    <Position X="87.75" Y="6.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\FoodEstablishments\Winery.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.GovernmentOffices.GovernmentOffice" Collapsed="true">
-    <Position X="106" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\GovernmentOffices\GovernmentOffice.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.GovernmentOffices.PostOffice" Collapsed="true">
-    <Position X="106" Y="6.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\GovernmentOffices\PostOffice.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.HealthAndBeautyBusinesses.BeautySalon" Collapsed="true">
-    <Position X="58.5" Y="6.25" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\HealthAndBeautyBusinesses\BeautySalon.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.HealthAndBeautyBusinesses.DaySpa" Collapsed="true">
-    <Position X="61" Y="6.25" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\HealthAndBeautyBusinesses\DaySpa.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.HealthAndBeautyBusinesses.HairSalon" Collapsed="true">
-    <Position X="63.5" Y="6.25" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\HealthAndBeautyBusinesses\HairSalon.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.HealthAndBeautyBusinesses.HealthAndBeautyBusiness" Collapsed="true">
-    <Position X="57.25" Y="4.75" Width="2" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\HealthAndBeautyBusinesses\HealthAndBeautyBusiness.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.HealthAndBeautyBusinesses.HealthClub" Collapsed="true">
-    <Position X="51" Y="6.25" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\HealthAndBeautyBusinesses\HealthClub.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.HealthAndBeautyBusinesses.NailSalon" Collapsed="true">
-    <Position X="53.5" Y="6.25" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\HealthAndBeautyBusinesses\NailSalon.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.HealthAndBeautyBusinesses.TattooParlor" Collapsed="true">
-    <Position X="56" Y="6.25" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\HealthAndBeautyBusinesses\TattooParlor.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.HomeAndConstructionBusinesses.HomeAndConstructionBusiness" Collapsed="true">
-    <Position X="68.5" Y="4.75" Width="2.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\LocalBusinesses\HomeAndConstructionBusinesses\HomeAndConstructionBusiness.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.PerformingGroups.DanceGroup" Collapsed="true">
-    <Position X="127.25" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\PerformingGroups\DanceGroup.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.PerformingGroups.MusicGroup" Collapsed="true">
-    <Position X="370.75" Y="3.5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAA=</HashCode>
-      <FileName>Organizations\PerformingGroups\MusicGroup.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.PerformingGroups.TheaterGroup" Collapsed="true">
-    <Position X="129.5" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\PerformingGroups\TheaterGroup.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Organizations.SportsOrganizations.SportsTeam" Collapsed="true">
-    <Position X="132" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Organizations\SportsOrganizations\SportsTeam.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Places.AdministrativeArea" Collapsed="true">
-    <Position X="241.25" Y="3.25" Width="1.75" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Places\AdministrativeArea.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Places.LocalBusiness" Collapsed="true">
-    <Position X="243.75" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>EAAAAAAAAAAFAAAAAAAQAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
-      <FileName>Places\LocalBusiness.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Places.LocalBusinesses.Store" Collapsed="true">
-    <Position X="243.75" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Places\LocalBusinesses\Store.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Places.LocalBusinesses.Stores.AutoPartsStore" Collapsed="true">
-    <Position X="243.75" Y="6.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Places\LocalBusinesses\Stores\AutoPartsStore.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Products.IndividualProduct" Collapsed="true">
-    <Position X="302.25" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Products\IndividualProduct.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Products.ProductModel" Collapsed="true">
-    <Position X="304.5" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAACAAAAAEAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Products\ProductModel.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Products.SomeProducts" Collapsed="true">
-    <Position X="297.75" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Products\SomeProducts.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Products.Vehicle" Collapsed="true">
-    <Position X="300" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Products\Vehicle.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="OakIdeas.Schema.Core.Products.Vehicles.Car" Collapsed="true">
-    <Position X="300" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Products\Vehicles\Car.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="OakIdeas.Schema.Core.Action" Collapsed="true">
-    <Position X="24.25" Y="1.75" Width="1.5" />
+    <Position X="3.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAQAgAAMAACQAKAAgAAAAACAEAAAAAAA=</HashCode>
       <FileName>Action.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OakIdeas.Schema.Core.CreativeWork" Collapsed="true">
-    <Position X="187.75" Y="1.75" Width="1.5" />
+    <Position X="57" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>IAQQBECUASA1IAUgyAMAAAYAkAQQAEAgEACUCAAQIAg=</HashCode>
       <FileName>CreativeWork.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OakIdeas.Schema.Core.EducationalOrganization" Collapsed="true">
-    <Position X="370.75" Y="0.5" Width="1.5" />
+    <Position X="238.25" Y="3.25" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
       <FileName>EducationalOrganization.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OakIdeas.Schema.Core.Event" Collapsed="true">
-    <Position X="270.75" Y="1.75" Width="1.5" />
+    <Position X="133" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAIQAAASAIAAAAIABAAgAQAAAAAAAAAAAEAAAAA=</HashCode>
+      <HashCode>AAAAAAAQAAASAIAAAAIABAAgAQAAAAAAAAAAAEAAAAA=</HashCode>
       <FileName>Event.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OakIdeas.Schema.Core.Intangible" Collapsed="true">
-    <Position X="337.5" Y="1.75" Width="1.5" />
+    <Position X="198" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Intangible.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OakIdeas.Schema.Core.InterationCount" Collapsed="true">
-    <Position X="370.75" Y="1.5" Width="1.5" />
+    <Position X="377.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>InterationCount.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OakIdeas.Schema.Core.MedicalEntity" Collapsed="true">
-    <Position X="19.75" Y="1.75" Width="1.5" />
+    <Position X="236" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAgAAAAAgAABAAAAAAgBAAAAAAAAAAAABBAAAAAAAA=</HashCode>
       <FileName>MedicalEntity.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OakIdeas.Schema.Core.OfferItemCondition" Collapsed="true">
-    <Position X="372.5" Y="3.5" Width="1.5" />
+    <Position X="379.25" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>OfferItemCondition.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OakIdeas.Schema.Core.Organization" Collapsed="true">
-    <Position X="81.5" Y="1.75" Width="1.5" />
+    <Position X="293.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAEWAgCCAAAAQAQAIAUAAADwAIIQAGAJCEAAABAAE=</HashCode>
+      <HashCode>AAAAESAoCCAAAgQACAIAQAAADgAIIQAGAJCAAAABAAE=</HashCode>
       <FileName>Organization.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OakIdeas.Schema.Core.Person" Collapsed="true">
-    <Position X="239" Y="1.75" Width="1.5" />
+    <Position X="353.25" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AABAESIQCiAABBCQQIAEUAQAAAAQaCAGAbgAEAAJDKk=</HashCode>
       <FileName>Person.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OakIdeas.Schema.Core.Place" Collapsed="true">
-    <Position X="242.5" Y="1.75" Width="1.5" />
+    <Position X="355.5" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAEUAAAFAAACBAQAAAQAAAAgAAICACAICAAACAAAA=</HashCode>
+      <HashCode>AAQAEQAAAEAAACBCBAAAAAIABgAEIAACAICAAAAAAAA=</HashCode>
       <FileName>Place.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="OakIdeas.Schema.Core.PostalAddress" Collapsed="true">
-    <Position X="367.25" Y="4.5" Width="1.5" />
+    <Position X="377.5" Y="3.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>PostalAddress.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OakIdeas.Schema.Core.Product" Collapsed="true">
-    <Position X="301.25" Y="1.75" Width="1.5" />
+    <Position X="365.75" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>UAgAAUAABCIcAAAAAAAAAEAAACIAAAEgEAiAgQABEgA=</HashCode>
+      <HashCode>UAgAAQAABCIcAAAAAAAAAEAAACIAAAEgEAiAgQABEgA=</HashCode>
       <FileName>Product.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="OakIdeas.Schema.Core.Thing" Collapsed="true">
-    <Position X="189.5" Y="0.5" Width="1.5" />
+    <Position X="186.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAgAgAAAAAAABAAQAAAAAABAACBAAAAQAAgA=</HashCode>
+      <HashCode>BAAAABAAAgAgAAAAAAABAAQAAAAAABAACBAAAAAAAgA=</HashCode>
       <FileName>Thing.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="OakIdeas.Schema.Core.Actions.AchieveAction" Collapsed="true">
+    <Position X="3.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Actions\AchieveAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Actions.AchieveActions.LoseAction" Collapsed="true">
+    <Position X="1.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Actions\AchieveActions\LoseAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Actions.AchieveActions.TieAction" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Actions\AchieveActions\TieAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Actions.AchieveActions.WinAction" Collapsed="true">
+    <Position X="5.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Actions\AchieveActions\WinAction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Articles.APIReference" Collapsed="true">
+    <Position X="35.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAQAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\Articles\APIReference.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Articles.Article" Collapsed="true">
+    <Position X="34" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAiAAAAAAAAAAIAAAAAAAAAAABAAAQAA=</HashCode>
+      <FileName>CreativeWorks\Articles\Article.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Articles.MedicalScholarlyArticle" Collapsed="true">
+    <Position X="32.75" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\Articles\MedicalScholarlyArticle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Articles.NewsArticle" Collapsed="true">
+    <Position X="30.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAgAAQAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\Articles\NewsArticle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Articles.ScholarlyArticle" Collapsed="true">
+    <Position X="33" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\Articles\ScholarlyArticle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Articles.TechArticle" Collapsed="true">
+    <Position X="35.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\Articles\TechArticle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Blogs.Blog" Collapsed="true">
+    <Position X="74" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>CreativeWorks\Blogs\Blog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Blogs.BlogPosting" Collapsed="true">
+    <Position X="37.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\Blogs\BlogPosting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Books.Book" Collapsed="true">
+    <Position X="80.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQEAAAAAACAAAAAAAAAAAAAAAIAAAACAAAA=</HashCode>
+      <FileName>CreativeWorks\Books\Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Books.BookFormatType" Collapsed="true">
+    <Position X="374" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\Books\BookFormatType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Code" Collapsed="true">
+    <Position X="103.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAQAAAEAAACAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\Code.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Comment" Collapsed="true">
+    <Position X="8" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\Comment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.ItemList" Collapsed="true">
+    <Position X="12.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAEAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\ItemList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.ItemListElement" Collapsed="true">
+    <Position X="379.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\ItemListElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Map" Collapsed="true">
+    <Position X="26" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\Map.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Movie" Collapsed="true">
+    <Position X="28.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAACgAAAAACCAAAAAAAQAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>CreativeWorks\Movie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Painting" Collapsed="true">
+    <Position X="40" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\Painting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Photograph" Collapsed="true">
+    <Position X="44.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\Photograph.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.PhysicalActivity" Collapsed="true">
+    <Position X="375.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\PhysicalActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Recipe" Collapsed="true">
+    <Position X="49" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAEAIAAAAgAAEAAKAAAAAQCAEAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\Recipe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Review" Collapsed="true">
+    <Position X="51.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAIAAAAAAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\Review.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Sculpture" Collapsed="true">
+    <Position X="76.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\Sculpture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.SoftwareApplication" Collapsed="true">
+    <Position X="359" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAAAACAAgBAAAAgAAQACAIAUAAAGQBgQACAIgY=</HashCode>
+      <FileName>CreativeWorks\SoftwareApplication.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Data.DataCatalog" Collapsed="true">
+    <Position X="83" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\Data\DataCatalog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Data.Dataset" Collapsed="true">
+    <Position X="99.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAQAAAAAAAABAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\Data\Dataset.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.MediaObjects.AudioObject" Collapsed="true">
+    <Position X="23.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\MediaObjects\AudioObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.MediaObjects.DataDownload" Collapsed="true">
+    <Position X="14.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\MediaObjects\DataDownload.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.MediaObjects.ImageObject" Collapsed="true">
+    <Position X="17" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAECACAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\MediaObjects\ImageObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.MediaObjects.MediaObject" Collapsed="true">
+    <Position X="19.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAACAAAAgAIQAEAAAACMAAAAIAAAAABAIwA=</HashCode>
+      <FileName>CreativeWorks\MediaObjects\MediaObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.MediaObjects.MusicVideoObject" Collapsed="true">
+    <Position X="19.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\MediaObjects\MusicVideoObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.MediaObjects.VideoObject" Collapsed="true">
+    <Position X="21.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAADQAAAAAAAAAACgAAAAAgAAA=</HashCode>
+      <FileName>CreativeWorks\MediaObjects\VideoObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Medical.Diet" Collapsed="true">
+    <Position X="42.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAACAgAAEAgAAgIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\Medical\Diet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Medical.ExercisePlan" Collapsed="true">
+    <Position X="46.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAIAQAAAAAAgBAEQECAIBA=</HashCode>
+      <FileName>CreativeWorks\Medical\ExercisePlan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Medical.MedicalTherapy" Collapsed="true">
+    <Position X="374" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\Medical\MedicalTherapy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Music.MusicAlbum" Collapsed="true">
+    <Position X="53.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\Music\MusicAlbum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Music.MusicPlaylist" Collapsed="true">
+    <Position X="53.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\Music\MusicPlaylist.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Music.MusicRecording" Collapsed="true">
+    <Position X="78.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAEAAAAAAAAAAAAQAAAAgAAAAA=</HashCode>
+      <FileName>CreativeWorks\Music\MusicRecording.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Software.MobileApplication" Collapsed="true">
+    <Position X="358" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\Software\MobileApplication.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.Software.WebApplication" Collapsed="true">
+    <Position X="360.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\Software\WebApplication.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.TV.TVEpisode" Collapsed="true">
+    <Position X="101.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAACgAAAAACCAAAAAIQQAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>CreativeWorks\TV\TVEpisode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.TV.TVSeason" Collapsed="true">
+    <Position X="106" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABACAAAAAAAQACAAAgAJAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>CreativeWorks\TV\TVSeason.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.TV.TVSeries" Collapsed="true">
+    <Position X="10.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABABAQAAgAAAAQCAAAAAAAAAAAABAAAAAEAgAAA=</HashCode>
+      <FileName>CreativeWorks\TV\TVSeries.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.WebPages.AboutPage" Collapsed="true">
+    <Position X="55.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\WebPages\AboutPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.WebPages.CheckoutPage" Collapsed="true">
+    <Position X="58" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\WebPages\CheckoutPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.WebPages.CollectionPage" Collapsed="true">
+    <Position X="60.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\WebPages\CollectionPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.WebPages.ContactPage" Collapsed="true">
+    <Position X="62.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\WebPages\ContactPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.WebPages.ItemPage" Collapsed="true">
+    <Position X="64.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\WebPages\ItemPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.WebPages.MedicalWebPage" Collapsed="true">
+    <Position X="67" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\WebPages\MedicalWebPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.WebPages.ProfilePage" Collapsed="true">
+    <Position X="69.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\WebPages\ProfilePage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.WebPages.SearchResultsPage" Collapsed="true">
+    <Position X="71.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\WebPages\SearchResultsPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.WebPages.WebPage" Collapsed="true">
+    <Position X="63.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\WebPages\WebPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.WebPages.Elements.SiteNavigationElement" Collapsed="true">
+    <Position X="89.75" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\WebPages\Elements\SiteNavigationElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.WebPages.Elements.Table" Collapsed="true">
+    <Position X="92.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\WebPages\Elements\Table.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.WebPages.Elements.WebPageElement" Collapsed="true">
+    <Position X="91" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\WebPages\Elements\WebPageElement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.WebPages.Elements.WPAdBlock" Collapsed="true">
+    <Position X="94.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\WebPages\Elements\WPAdBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.WebPages.Elements.WPFooter" Collapsed="true">
+    <Position X="97" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\WebPages\Elements\WPFooter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.WebPages.Elements.WPHeader" Collapsed="true">
+    <Position X="85.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\WebPages\Elements\WPHeader.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.CreativeWorks.WebPages.Elements.WPSideBar" Collapsed="true">
+    <Position X="87.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CreativeWorks\WebPages\Elements\WPSideBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Events.BusinessEvent" Collapsed="true">
+    <Position X="130.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\BusinessEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Events.ChildrensEvent" Collapsed="true">
+    <Position X="133" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\ChildrensEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Events.ComedyEvent" Collapsed="true">
+    <Position X="135.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\ComedyEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Events.DanceEvent" Collapsed="true">
+    <Position X="137.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\DanceEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Events.EducationEvent" Collapsed="true">
+    <Position X="139.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\EducationEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Events.Festival" Collapsed="true">
+    <Position X="142" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\Festival.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Events.FoodEvent" Collapsed="true">
+    <Position X="144.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\FoodEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Events.LiteraryEvent" Collapsed="true">
+    <Position X="146.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\LiteraryEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Events.MusicEvent" Collapsed="true">
+    <Position X="148.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\MusicEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Events.SaleEvent" Collapsed="true">
+    <Position X="151" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\SaleEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Events.SocialEvent" Collapsed="true">
+    <Position X="153.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\SocialEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Events.SportsEvent" Collapsed="true">
+    <Position X="155.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\SportsEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Events.TheaterEvent" Collapsed="true">
+    <Position X="157.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\TheaterEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Events.UserInteraction" Collapsed="true">
+    <Position X="117.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\UserInteraction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Events.VisualArtsEvent" Collapsed="true">
+    <Position X="128.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\VisualArtsEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Events.UserInteractions.UserBlocks" Collapsed="true">
+    <Position X="108.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\UserInteractions\UserBlocks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Events.UserInteractions.UserCheckins" Collapsed="true">
+    <Position X="110.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\UserInteractions\UserCheckins.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Events.UserInteractions.UserComments" Collapsed="true">
+    <Position X="112.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQBAAAAAAAAAAAAAgAAAAAAAAAEAAAAQAAAAA=</HashCode>
+      <FileName>Events\UserInteractions\UserComments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Events.UserInteractions.UserDownloads" Collapsed="true">
+    <Position X="115" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\UserInteractions\UserDownloads.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Events.UserInteractions.UserLikes" Collapsed="true">
+    <Position X="117.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\UserInteractions\UserLikes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Events.UserInteractions.UserPageVisits" Collapsed="true">
+    <Position X="119.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\UserInteractions\UserPageVisits.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Events.UserInteractions.UserPlays" Collapsed="true">
+    <Position X="121.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\UserInteractions\UserPlays.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Events.UserInteractions.UserPlusOnes" Collapsed="true">
+    <Position X="124" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\UserInteractions\UserPlusOnes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Events.UserInteractions.UserTweets" Collapsed="true">
+    <Position X="126.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Events\UserInteractions\UserTweets.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.AggregateRating" Collapsed="true">
+    <Position X="213.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Intangibles\AggregateRating.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.AlignmentObject" Collapsed="true">
+    <Position X="222.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAiAAQAABAAAAA=</HashCode>
+      <FileName>Intangibles\AlignmentObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Brand" Collapsed="true">
+    <Position X="224.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Brand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Class" Collapsed="true">
+    <Position X="371.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Class.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Demand" Collapsed="true">
+    <Position X="162.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAIAEAAAEwAIAAAACAABMEAAAQsBABEAESAAAAAAGgI=</HashCode>
+      <FileName>Intangibles\Demand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Duration" Collapsed="true">
+    <Position X="227" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Duration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Energy" Collapsed="true">
+    <Position X="229.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Energy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.EntryPoint" Collapsed="true">
+    <Position X="160" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAIAAAgAAAQAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Intangibles\EntryPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Enumeration" Collapsed="true">
+    <Position X="171.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAEAAAAAAQ=</HashCode>
+      <FileName>Intangibles\Enumeration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.JobPosting" Collapsed="true">
+    <Position X="181.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAhAAABUMQAAgAAAEgAAkAAAAQIAACgAAAAAA=</HashCode>
+      <FileName>Intangibles\JobPosting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Language" Collapsed="true">
+    <Position X="183.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Language.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.NutrionInformation" Collapsed="true">
+    <Position X="195" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>MAAAAAAAEAABAAAAgAQAAAAAAAQQIQAAAAAAAAAAAEA=</HashCode>
+      <FileName>Intangibles\NutrionInformation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Offer" Collapsed="true">
+    <Position X="211" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Offer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Property" Collapsed="true">
+    <Position X="351" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Property.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Rating" Collapsed="true">
+    <Position X="213.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAIgAAAA=</HashCode>
+      <FileName>Intangibles\Rating.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Audiences.Audience" Collapsed="true">
+    <Position X="217.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Audiences\Audience.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Audiences.EducationalAudience" Collapsed="true">
+    <Position X="220" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Intangibles\Audiences\EducationalAudience.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Audiences.MedicalAudience" Collapsed="true">
+    <Position X="215.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Intangibles\Audiences\MedicalAudience.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Audiences.ParentAudience" Collapsed="true">
+    <Position X="217.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Audiences\ParentAudience.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Audiences.PeopleAudience" Collapsed="true">
+    <Position X="216.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAECAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Audiences\PeopleAudience.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Enumerations.BusinessEntityType" Collapsed="true">
+    <Position X="164.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Enumerations\BusinessEntityType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Enumerations.BusinessFunction" Collapsed="true">
+    <Position X="167" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Enumerations\BusinessFunction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Enumerations.DeliveryMethod" Collapsed="true">
+    <Position X="169.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Enumerations\DeliveryMethod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Enumerations.DriveWheelConfiguration" Collapsed="true">
+    <Position X="173.75" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Enumerations\DriveWheelConfiguration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Enumerations.PaymentMethod" Collapsed="true">
+    <Position X="171.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Enumerations\PaymentMethod.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Enumerations.QualitativeValue" Collapsed="true">
+    <Position X="175.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAgAAAAAAACAAEAEQAAQAAAAQAAAA=</HashCode>
+      <FileName>Intangibles\Enumerations\QualitativeValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Enumerations.WarrantyScope" Collapsed="true">
+    <Position X="179" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Enumerations\WarrantyScope.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Enumerations.DeliveryMethods.ParcelService" Collapsed="true">
+    <Position X="169.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Enumerations\DeliveryMethods\ParcelService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Enumerations.PaymentMethods.CreditCard" Collapsed="true">
+    <Position X="171.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Enumerations\PaymentMethods\CreditCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Enumerations.QualitativeValues.SteeringPositionValue" Collapsed="true">
+    <Position X="176.5" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Enumerations\QualitativeValues\SteeringPositionValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Quantities.Duration" Collapsed="true">
+    <Position X="231.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Quantities\Duration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Quantities.Mass" Collapsed="true">
+    <Position X="233.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Quantities\Mass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Quantities.Quantity" Collapsed="true">
+    <Position X="230.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Quantities\Quantity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.StructuredValues.ContactPoint" Collapsed="true">
+    <Position X="375.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\StructuredValues\ContactPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.StructuredValues.EngineSpecification" Collapsed="true">
+    <Position X="185.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\StructuredValues\EngineSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.StructuredValues.GeoShape" Collapsed="true">
+    <Position X="188.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEoAAAAAAAAAAAABACA=</HashCode>
+      <FileName>Intangibles\StructuredValues\GeoShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.StructuredValues.OppeningHoursSpecification" Collapsed="true">
+    <Position X="374" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\StructuredValues\OppeningHoursSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.StructuredValues.PropertyValue" Collapsed="true">
+    <Position X="190.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACgAAAAIAAIQAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Intangibles\StructuredValues\PropertyValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.StructuredValues.QuantitativeValue" Collapsed="true">
+    <Position X="192.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACgAAAAAAAIAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Intangibles\StructuredValues\QuantitativeValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.StructuredValues.StructuredValue" Collapsed="true">
+    <Position X="197.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\StructuredValues\StructuredValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.StructuredValues.TypeAndQuantityNode" Collapsed="true">
+    <Position X="197.5" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAoAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Intangibles\StructuredValues\TypeAndQuantityNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.StructuredValues.WarrantyPromise" Collapsed="true">
+    <Position X="200.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\StructuredValues\WarrantyPromise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.StructuredValues.PriceSpecifications.DeliveryChargeSpecification" Collapsed="true">
+    <Position X="202.5" Y="6.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\StructuredValues\PriceSpecifications\DeliveryChargeSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.StructuredValues.PriceSpecifications.PaymentChargeSpecification" Collapsed="true">
+    <Position X="205.5" Y="6.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\StructuredValues\PriceSpecifications\PaymentChargeSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.StructuredValues.PriceSpecifications.PriceSpecification" Collapsed="true">
+    <Position X="205.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAEAAABQAAAAAAAAAAAAAAAAAAABAAACAABAAAAAg=</HashCode>
+      <FileName>Intangibles\StructuredValues\PriceSpecifications\PriceSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.StructuredValues.PriceSpecifications.UnitPriceSpecification" Collapsed="true">
+    <Position X="208.5" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIIAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>Intangibles\StructuredValues\PriceSpecifications\UnitPriceSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.MedicalEntities.MedicalCode" Collapsed="true">
+    <Position X="374" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MedicalEntities\MedicalCode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.MedicalEntities.MedicalCondition" Collapsed="true">
+    <Position X="236" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MedicalEntities\MedicalCondition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.MedicalEntities.MedicalGuideLine" Collapsed="true">
+    <Position X="375.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MedicalEntities\MedicalGuideLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.MedicalEntities.MedicalSpecialty" Collapsed="true">
+    <Position X="377.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MedicalEntities\MedicalSpecialty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.MedicalEntities.MedicalStudy" Collapsed="true">
+    <Position X="379.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MedicalEntities\MedicalStudy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.MedicalEntities.MedicineSystem" Collapsed="true">
+    <Position X="375.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MedicalEntities\MedicineSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.Corporation" Collapsed="true">
+    <Position X="241" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\Corporation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.EducationalOrganization" Collapsed="true">
+    <Position X="249.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\EducationalOrganization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.GovernmentOrganization" Collapsed="true">
+    <Position X="258.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\GovernmentOrganization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusiness" Collapsed="true">
+    <Position X="300.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAAAAEAEACBCBAAAAAIABAAEAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusiness.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.NGO" Collapsed="true">
+    <Position X="341.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\NGO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.PerformingGroup" Collapsed="true">
+    <Position X="345" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\PerformingGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.SportsOrganization" Collapsed="true">
+    <Position X="348.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Organizations\SportsOrganization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.EducationalOrganizations.CollegeOrUniversity" Collapsed="true">
+    <Position X="248.25" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\EducationalOrganizations\CollegeOrUniversity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.EducationalOrganizations.ElementarySchool" Collapsed="true">
+    <Position X="250.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\EducationalOrganizations\ElementarySchool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.EducationalOrganizations.HighSchool" Collapsed="true">
+    <Position X="253.25" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\EducationalOrganizations\HighSchool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.EducationalOrganizations.MiddleSchool" Collapsed="true">
+    <Position X="255.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\EducationalOrganizations\MiddleSchool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.EducationalOrganizations.Preschool" Collapsed="true">
+    <Position X="243.25" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\EducationalOrganizations\Preschool.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.EducationalOrganizations.School" Collapsed="true">
+    <Position X="245.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\EducationalOrganizations\School.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.AnimalShelter" Collapsed="true">
+    <Position X="263.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\AnimalShelter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.AutomotiveBusiness" Collapsed="true">
+    <Position X="265.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\AutomotiveBusiness.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.ChildCare" Collapsed="true">
+    <Position X="268" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\ChildCare.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.DryCleaningOrLaundry" Collapsed="true">
+    <Position X="270.25" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\DryCleaningOrLaundry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.EmergencyService" Collapsed="true">
+    <Position X="282.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\EmergencyService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.EmploymentAgency" Collapsed="true">
+    <Position X="299.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\EmploymentAgency.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.Store" Collapsed="true">
+    <Position X="302" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\Store.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.EntertainmentBusinesses.AdultEntertainment" Collapsed="true">
+    <Position X="330.25" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\EntertainmentBusinesses\AdultEntertainment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.EntertainmentBusinesses.AmusementPark" Collapsed="true">
+    <Position X="332.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\EntertainmentBusinesses\AmusementPark.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.EntertainmentBusinesses.ArtGallery" Collapsed="true">
+    <Position X="335" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\EntertainmentBusinesses\ArtGallery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.EntertainmentBusinesses.Casino" Collapsed="true">
+    <Position X="337.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\EntertainmentBusinesses\Casino.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.EntertainmentBusinesses.ComedyClub" Collapsed="true">
+    <Position X="339.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\EntertainmentBusinesses\ComedyClub.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.EntertainmentBusinesses.EntertainmentBusiness" Collapsed="true">
+    <Position X="332.25" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\EntertainmentBusinesses\EntertainmentBusiness.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.EntertainmentBusinesses.MovieTheater" Collapsed="true">
+    <Position X="325.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\EntertainmentBusinesses\MovieTheater.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.EntertainmentBusinesses.NightClub" Collapsed="true">
+    <Position X="328" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\EntertainmentBusinesses\NightClub.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.FinancialServices.AccountingService" Collapsed="true">
+    <Position X="273" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\FinancialServices\AccountingService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.FinancialServices.AutomatedTeller" Collapsed="true">
+    <Position X="275.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\FinancialServices\AutomatedTeller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.FinancialServices.BankOrCreditUnion" Collapsed="true">
+    <Position X="277.5" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\FinancialServices\BankOrCreditUnion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.FinancialServices.FinancialService" Collapsed="true">
+    <Position X="276.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\FinancialServices\FinancialService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.FinancialServices.InsuranceAgency" Collapsed="true">
+    <Position X="280" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\FinancialServices\InsuranceAgency.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.FoodEstablishments.Bakery" Collapsed="true">
+    <Position X="309.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\FoodEstablishments\Bakery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.FoodEstablishments.BarOrPub" Collapsed="true">
+    <Position X="312" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\FoodEstablishments\BarOrPub.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.FoodEstablishments.Brewery" Collapsed="true">
+    <Position X="314.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\FoodEstablishments\Brewery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.FoodEstablishments.CafeOrCoffeeShop" Collapsed="true">
+    <Position X="316.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\FoodEstablishments\CafeOrCoffeeShop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.FoodEstablishments.FastFoodRestaurant" Collapsed="true">
+    <Position X="318.75" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\FoodEstablishments\FastFoodRestaurant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.FoodEstablishments.FoodEstablishment" Collapsed="true">
+    <Position X="315.25" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\FoodEstablishments\FoodEstablishment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.FoodEstablishments.IceCreamShop" Collapsed="true">
+    <Position X="321.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\FoodEstablishments\IceCreamShop.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.FoodEstablishments.Restaurant" Collapsed="true">
+    <Position X="323.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\FoodEstablishments\Restaurant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.FoodEstablishments.Winery" Collapsed="true">
+    <Position X="307.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\FoodEstablishments\Winery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.GovernmentOffices.GovernmentOffice" Collapsed="true">
+    <Position X="261" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\GovernmentOffices\GovernmentOffice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.GovernmentOffices.PostOffice" Collapsed="true">
+    <Position X="261" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\GovernmentOffices\PostOffice.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.HealthAndBeautyBusinesses.BeautySalon" Collapsed="true">
+    <Position X="284.5" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\HealthAndBeautyBusinesses\BeautySalon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.HealthAndBeautyBusinesses.DaySpa" Collapsed="true">
+    <Position X="287" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\HealthAndBeautyBusinesses\DaySpa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.HealthAndBeautyBusinesses.HairSalon" Collapsed="true">
+    <Position X="289.5" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\HealthAndBeautyBusinesses\HairSalon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.HealthAndBeautyBusinesses.HealthAndBeautyBusiness" Collapsed="true">
+    <Position X="290.5" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\HealthAndBeautyBusinesses\HealthAndBeautyBusiness.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.HealthAndBeautyBusinesses.HealthClub" Collapsed="true">
+    <Position X="292" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\HealthAndBeautyBusinesses\HealthClub.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.HealthAndBeautyBusinesses.NailSalon" Collapsed="true">
+    <Position X="294.5" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\HealthAndBeautyBusinesses\NailSalon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.HealthAndBeautyBusinesses.TattooParlor" Collapsed="true">
+    <Position X="297" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\HealthAndBeautyBusinesses\TattooParlor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.HomeAndConstructionBusinesses.HomeAndConstructionBusiness" Collapsed="true">
+    <Position X="304.25" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\HomeAndConstructionBusinesses\HomeAndConstructionBusiness.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.LocalBusinesses.Stores.AutoPartsStore" Collapsed="true">
+    <Position X="302" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\LocalBusinesses\Stores\AutoPartsStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.PerformingGroups.DanceGroup" Collapsed="true">
+    <Position X="344" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\PerformingGroups\DanceGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.PerformingGroups.MusicGroup" Collapsed="true">
+    <Position X="377.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAA=</HashCode>
+      <FileName>Organizations\PerformingGroups\MusicGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.PerformingGroups.TheaterGroup" Collapsed="true">
+    <Position X="346.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\PerformingGroups\TheaterGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Organizations.SportsOrganizations.SportsTeam" Collapsed="true">
+    <Position X="348.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Organizations\SportsOrganizations\SportsTeam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Places.AdministrativeArea" Collapsed="true">
+    <Position X="355.5" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Places\AdministrativeArea.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Products.IndividualProduct" Collapsed="true">
+    <Position X="362.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Products\IndividualProduct.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Products.ProductModel" Collapsed="true">
+    <Position X="364.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAEAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Products\ProductModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Products.SomeProducts" Collapsed="true">
+    <Position X="367" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Products\SomeProducts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Products.Vehicle" Collapsed="true">
+    <Position X="369.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAEAwAAEgiAEgCIAAIAQAAAAAAUAAERABAAAACIA=</HashCode>
+      <FileName>Products\Vehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Products.Vehicles.Car" Collapsed="true">
+    <Position X="369.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Products\Vehicles\Car.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="OakIdeas.Schema.Core.IPlace" Collapsed="true">
+    <Position X="374" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEQAAAEAAACBCBAAAAAIABgAEIAACAICAAAAAAAA=</HashCode>
+      <FileName>IPlace.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Enum Name="OakIdeas.Schema.Core.Intangibles.Enumerations.ItemAvailabilities.ItemAvailability" Collapsed="true">
-    <Position X="363.75" Y="5.75" Width="1.5" />
+    <Position X="374" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AEAAAAACAAAAAAAAAEAAAAAAAAAAAAACAAAAAAAQIAA=</HashCode>
       <FileName>Intangibles\Enumerations\ItemAvailabilities\ItemAvailability.cs</FileName>

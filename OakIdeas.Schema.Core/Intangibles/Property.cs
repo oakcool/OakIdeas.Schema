@@ -10,7 +10,7 @@ namespace OakIdeas.Schema.Core.Intangibles
     /// A property, used to indicate attributes and relationships of some Thing; equivalent to rdf:Property.
     /// </summary>
     /// <see cref="http://www.schema.org/Property"/>
-    public class Property : Thing
+    public class Property : Intangible
     {
         /// <summary>
         /// Relates a property to a class that is (one of) the type(s) the property is expected to be used on.
