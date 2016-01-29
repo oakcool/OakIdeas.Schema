@@ -4,6 +4,7 @@ using OakIdeas.Schema.Microdata.CreativeWorks;
 using OakIdeas.Schema.Microdata.Events;
 using OakIdeas.Schema.Microdata.Intangibles;
 using OakIdeas.Schema.Microdata.Intangibles.StructuredValues;
+using OakIdeas.Schema.Microdata.CreativeWorks.MediaObjects;
 
 namespace OakIdeas.Schema.Microdata
 {
@@ -84,7 +85,7 @@ namespace OakIdeas.Schema.Microdata
         /// <summary>
         /// URL of an image for the logo of the item.
         /// </summary>
-        public string Logo { get; set; }
+        public ImageObject Logo { get; set; }
         /// <summary>
         /// A pointer to products or services offered by the organization or person.
         /// </summary>

@@ -11,5 +11,11 @@ namespace OakIdeas.Schema.Microdata.Intangibles.Enumerations.DeliveryMethods
     /// <see cref="http://www.schema.org/ParcelService"/>
     public class ParcelService : DeliveryMethod
     {
+        public ParcelService()
+        {
+            Members.Add("DHL");
+            Members.Add("FederalExpress");
+            Members.Add("UPS");
+        }
     }
 }

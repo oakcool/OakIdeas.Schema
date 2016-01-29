@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace OakIdeas.Schema.Microdata.Places.LocalBusinesses
+namespace OakIdeas.Schema.Microdata.Organizations.LocalBusinesses
 {
     /// <summary>
     /// A retail good store.

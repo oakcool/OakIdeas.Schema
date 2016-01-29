@@ -11,7 +11,7 @@
     <RootNamespace>OakIdeas.Schema.Microdata</RootNamespace>
     <AssemblyName>OakIdeas.Schema.Microdata</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Profile36</TargetFrameworkProfile>
+    <TargetFrameworkProfile>Profile136</TargetFrameworkProfile>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <FileUpgradeFlags>
@@ -164,6 +164,7 @@
     <Compile Include="Intangibles\Duration.cs" />
     <Compile Include="Intangibles\Energy.cs" />
     <Compile Include="Intangibles\EntryPoint.cs" />
+    <Compile Include="Intangibles\Enumeration.cs" />
     <Compile Include="Intangibles\Enumerations\BusinessEntityType.cs" />
     <Compile Include="Intangibles\Enumerations\BusinessFunction.cs" />
     <Compile Include="Intangibles\Enumerations\DeliveryMethods\DeliveryMethod.cs" />
@@ -187,11 +188,13 @@
     <Compile Include="Intangibles\StructuredValues\PriceSpecifications\PaymentChargeSpecification.cs" />
     <Compile Include="Intangibles\StructuredValues\PriceSpecifications\PriceSpecification.cs" />
     <Compile Include="Intangibles\StructuredValues\PriceSpecifications\UnitPriceSpecification.cs" />
+    <Compile Include="Intangibles\StructuredValues\PropertyValue.cs" />
     <Compile Include="Intangibles\StructuredValues\QuantitativeValue.cs" />
     <Compile Include="Intangibles\StructuredValues\StructuredValue.cs" />
     <Compile Include="Intangibles\StructuredValues\TypeAndQuantityNode.cs" />
     <Compile Include="Intangibles\StructuredValues\WarrantyPromise.cs" />
     <Compile Include="InterationCount.cs" />
+    <Compile Include="IPlace.cs" />
     <Compile Include="MedicalEntities\MedicalCode.cs" />
     <Compile Include="MedicalEntities\MedicalCondition.cs" />
     <Compile Include="MedicalEntities\MedicalGuideLine.cs" />
@@ -248,7 +251,7 @@
     <Compile Include="Organizations\LocalBusinesses\HealthAndBeautyBusinesses\NailSalon.cs" />
     <Compile Include="Organizations\LocalBusinesses\HealthAndBeautyBusinesses\TattooParlor.cs" />
     <Compile Include="Organizations\LocalBusinesses\HomeAndConstructionBusinesses\HomeAndConstructionBusiness.cs" />
-    <Compile Include="Organizations\LocalBusinesses\LocalBusiness.cs" />
+    <Compile Include="Organizations\LocalBusiness.cs" />
     <Compile Include="Organizations\NGO.cs" />
     <Compile Include="Organizations\PerformingGroup.cs" />
     <Compile Include="Organizations\PerformingGroups\DanceGroup.cs" />
@@ -259,9 +262,8 @@
     <Compile Include="Person.cs" />
     <Compile Include="Place.cs" />
     <Compile Include="Places\AdministrativeArea.cs" />
-    <Compile Include="Places\LocalBusiness.cs" />
-    <Compile Include="Places\LocalBusinesses\Store.cs" />
-    <Compile Include="Places\LocalBusinesses\Stores\AutoPartsStore.cs" />
+    <Compile Include="Organizations\LocalBusinesses\Store.cs" />
+    <Compile Include="Organizations\LocalBusinesses\Stores\AutoPartsStore.cs" />
     <Compile Include="PostalAddress.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Products\IndividualProduct.cs" />
