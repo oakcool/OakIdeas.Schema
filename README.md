@@ -1,7 +1,9 @@
 OakIdeas.Schema
 ===============
 
-A .Net implementation of the www.schema.org effort.
+[![NuGet Status](http://img.shields.io/nuget/v/Paket.svg?style=flat)](https://www.nuget.org/packages/OakIdeas.Schema.Core/)
+
+A .Net implementation of the [www.schema.org](schema.org) effort.
 
 This is a portable .net library that works from .NET 4 and up.
 

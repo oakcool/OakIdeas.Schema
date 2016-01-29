@@ -168,11 +168,14 @@
     <Compile Include="Intangibles\Enumeration.cs" />
     <Compile Include="Intangibles\Enumerations\BusinessEntityType.cs" />
     <Compile Include="Intangibles\Enumerations\BusinessFunction.cs" />
-    <Compile Include="Intangibles\Enumerations\DeliveryMethods\DeliveryMethod.cs" />
+    <Compile Include="Intangibles\Enumerations\DeliveryMethod.cs" />
     <Compile Include="Intangibles\Enumerations\DeliveryMethods\ParcelService.cs" />
+    <Compile Include="Intangibles\Enumerations\DriveWheelConfiguration.cs" />
     <Compile Include="Intangibles\Enumerations\ItemAvailabilities\ItemAvailability.cs" />
     <Compile Include="Intangibles\Enumerations\PaymentMethods\CreditCard.cs" />
-    <Compile Include="Intangibles\Enumerations\PaymentMethods\PaymentMethod.cs" />
+    <Compile Include="Intangibles\Enumerations\PaymentMethod.cs" />
+    <Compile Include="Intangibles\Enumerations\QualitativeValue.cs" />
+    <Compile Include="Intangibles\Enumerations\QualitativeValues\SteeringPositionValue.cs" />
     <Compile Include="Intangibles\Enumerations\WarrantyScope.cs" />
     <Compile Include="Intangibles\JobPosting.cs" />
     <Compile Include="Intangibles\Language.cs" />
@@ -183,6 +186,7 @@
     <Compile Include="Intangibles\Quantities\Quantity.cs" />
     <Compile Include="Intangibles\Rating.cs" />
     <Compile Include="Intangibles\StructuredValues\ContactPoint.cs" />
+    <Compile Include="Intangibles\StructuredValues\EngineSpecification.cs" />
     <Compile Include="Intangibles\StructuredValues\GeoShape.cs" />
     <Compile Include="Intangibles\StructuredValues\OppeningHoursSpecification.cs" />
     <Compile Include="Intangibles\StructuredValues\PriceSpecifications\DeliveryChargeSpecification.cs" />

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using OakIdeas.Schema.Core.Intangibles.Enumerations.DeliveryMethods;
+using OakIdeas.Schema.Core.Intangibles.Enumerations;
 
 namespace OakIdeas.Schema.Core.Intangibles.StructuredValues.PriceSpecifications
 {
