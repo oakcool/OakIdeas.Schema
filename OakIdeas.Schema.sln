@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OakIdeas.Schema.Microdata", "OakIdeas.Schema.Microdata\OakIdeas.Schema.Microdata.csproj", "{023B313E-0C2D-415D-91C9-81EC11A7E6B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OakIdeas.Schema.Core", "OakIdeas.Schema.Core\OakIdeas.Schema.Core.csproj", "{023B313E-0C2D-415D-91C9-81EC11A7E6B8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8127D489-7415-4FD4-B459-5293E25F2F49}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.txt = LICENSE.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

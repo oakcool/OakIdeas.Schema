@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OakIdeas.Schema.Core.Intangibles.AggregateRating">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Intangibles\AggregateRating.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Duration">
+    <Position X="0.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Duration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Energy">
+    <Position X="5.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Energy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Intangible">
+    <Position X="20.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Intangible.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Quantities.Mass">
+    <Position X="3" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Quantities\Mass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.NutrionInformation">
+    <Position X="20" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>MAAAAAAAEAABAAAAgAQAAAAAAAQQIQAAAAAAAAAAAEA=</HashCode>
+      <FileName>Intangibles\NutrionInformation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Quantities.Quantity">
+    <Position X="3" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Quantities\Quantity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Rating">
+    <Position X="7.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAIgAAAA=</HashCode>
+      <FileName>Intangibles\Rating.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Offer">
+    <Position X="12.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Offer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.AlignmentObject">
+    <Position X="9.75" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAiAAQAABAAAAA=</HashCode>
+      <FileName>Intangibles\AlignmentObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Demand">
+    <Position X="14.75" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAIAEAAAEwAIAAAACAABMEAAAQsBABEAESAAAAAAGgI=</HashCode>
+      <FileName>Intangibles\Demand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.StructuredValues.StructuredValue">
+    <Position X="23.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\StructuredValues\StructuredValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Audiences.Audience">
+    <Position X="32.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Audiences\Audience.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Brand">
+    <Position X="36" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Brand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.JobPosting">
+    <Position X="38.25" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAhAAABUMQAAgAAAEgAAkAAAAQIAACgAAAAAA=</HashCode>
+      <FileName>Intangibles\JobPosting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Language">
+    <Position X="41" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Language.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Audiences.PeopleAudience">
+    <Position X="31" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAECAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\Audiences\PeopleAudience.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.Audiences.EducationalAudience">
+    <Position X="33.5" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Intangibles\Audiences\EducationalAudience.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.StructuredValues.WarrantyPromise">
+    <Position X="22.75" Y="4" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Intangibles\StructuredValues\WarrantyPromise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.StructuredValues.QuantitativeValue">
+    <Position X="17.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACgAAAAAAAIAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Intangibles\StructuredValues\QuantitativeValue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.StructuredValues.PriceSpecifications.PriceSpecification">
+    <Position X="25.25" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>BAAAEAAABQAAAAAAAAAAAAAAAAAAABAAACAABAAAAAg=</HashCode>
+      <FileName>Intangibles\StructuredValues\PriceSpecifications\PriceSpecification.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OakIdeas.Schema.Core.Intangibles.StructuredValues.TypeAndQuantityNode">
+    <Position X="28.25" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAoAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Intangibles\StructuredValues\TypeAndQuantityNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
