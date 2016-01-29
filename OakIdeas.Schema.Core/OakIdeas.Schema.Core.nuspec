@@ -8,7 +8,7 @@
     <owners>$author$</owners>
     <licenseUrl>https://github.com/oakcool/OakIdeas.Schema/blob/master/LICENSE.txt</licenseUrl>
     <projectUrl>https://github.com/oakcool/OakIdeas.Schema</projectUrl>
-    <iconUrl>https://github.com/oakcool/OakIdeas.Schema/blob/master/oakideas.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/oakcool/OakIdeas.Schema/master/oakideas.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>This is the first package for the Schema project</releaseNotes>
